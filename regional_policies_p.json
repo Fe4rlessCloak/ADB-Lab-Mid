@@ -1,0 +1,19 @@
+Mapping Logic: Merged (Province + Tax + Laws + Management).
+The "Hit": This collection is small but vital. When a shipment crosses from Punjab to Sindh, the system queries this collection to apply the correct Tax Rate and check Local Laws (e.g., night-time truck bans).
+
+{
+  "_id": "PROV_PUNJAB",
+  "name": "Punjab",
+  "tax_rules": {
+    "gst_rate": 0.16,
+    "transit_tax_fixed": 500.00
+  },
+  "local_laws": [
+    { "law_id": "LAW_HTV_01", "law_text": "No Heavy Transport Vehicles on M-2 during fog > 80%", "penalty": 5000 },
+    { "law_id": "LAW_WGHT_02", "law_text": "Max axle load 12 tons", "penalty": 10000 }
+  ],
+  "management_contacts": [
+    { "role": "Regional Manager", "name": "Zubair Khan", "phone": "+92-321-9988776" },
+    { "role": "Highway Police Liaison", "name": "Insp. Hassan", "phone": "130" }
+  ]
+}

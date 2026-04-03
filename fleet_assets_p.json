@@ -1,0 +1,25 @@
+Mapping Logic: We combine the VehicleSpec, Registration, and CurrentHealth.
+Rubric Hit: Demonstrates Disjoint/Polymorphic storage (you can add fields for Truck vs. Plane here).
+
+{
+  "_id": "VEH_KHI_88",
+  "specs": {
+    "make_model": "Volvo FH16",
+    "capacity_kg": 25000,
+    "fuel_type": "Diesel"
+  },
+  "registration": {
+    "plate_number": "LED-4492",
+    "tax_status": "Paid",
+    "permit_expiry": "2027-06-01"
+  },
+  "current_health": {
+    "engine_status": "Optimal",
+    "tire_pressure_psi": 105,
+    "last_service_date": "2026-03-01",
+    "diagnostics": {
+      "battery": "Good",
+      "brake_wear": "15%"
+    }
+  }
+}

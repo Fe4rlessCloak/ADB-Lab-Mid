@@ -1,0 +1,29 @@
+Mapping Logic: Atomic but highly referenced (Driver, Vehicle, Shipment).
+The "Hit": This is your most complex analytical collection. An insurance investigator needs to see the Investigation notes and the Insurance Claim status linked to the specific Incident.
+Rubric Hit: Shows you can handle a "Triple Reference" (linking to 3 other collections) and Embedding (Investigation + Insurance).
+
+{
+  "_id": "INC_2026_0042",
+  "related_ids": {
+    "driver_id": "DRV_7721",
+    "vehicle_id": "VEH_KHI_88",
+    "shipment_id": "SHIP_2026_9901"
+  },
+  "incident_details": {
+    "type": "Collision",
+    "severity": "High",
+    "location": "Near Sukkur Interchange",
+    "timestamp": "2026-04-03T23:15:00Z"
+  },
+  "investigation": {
+    "investigation_id": "INV_001",
+    "details": "Brake failure suspected. Telemetry shows speed was within limits.",
+    "investigator_name": "Col. (R) Tariq"
+  },
+  "insurance_claim": {
+    "claim_id": "CLM_9921",
+    "provider": "EFU General",
+    "status": "In-Progress",
+    "damage_est_pkr": 1200000.00
+  }
+}

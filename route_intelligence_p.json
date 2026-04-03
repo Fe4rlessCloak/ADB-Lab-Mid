@@ -1,0 +1,26 @@
+Mapping Logic: We merge Path, Toll, WeatherPattern, and TrafficHistory.
+The "Hit": An analytical query like "Find the most expensive path based on tolls and current congestion" hits multiple sub-objects.
+
+{
+  "_id": "PATH_ISB_KHI_01",
+  "origin": "Islamabad",
+  "destination": "Karachi",
+  "distance_km": 1400,
+  
+  "toll_details": [
+    { "toll_id": "TOLL_M2_01", "location": "Kala Shah Kaku", "cost": 1200 },
+    { "toll_id": "TOLL_M3_02", "location": "Faisalabad", "cost": 850 }
+  ],
+  
+  "current_weather": {
+    "forecast": "Heavy Rain",
+    "visibility_km": 2.5,
+    "last_updated": "2026-04-03T22:00:00Z"
+  },
+  
+  "traffic_history": {
+    "congestion_level": "High",
+    "avg_speed_kph": 65,
+    "bottleneck_points": ["Pindi Bhattian Interchange", "Sukkur Exit"]
+  }
+}

@@ -1,0 +1,26 @@
+Mapping Logic: Merged (Customer + Billing + Credit).
+The "Hit": By embedding the Credit Limit and Billing Address, the system can instantly decide if a new shipment should be "Approved" or "Blocked" based on unpaid balances.
+Rubric Hit: Demonstrates 1:1 and 1:M Embedding for a "Single View of the Customer."
+
+{
+  "_id": "CUST_APPLE_PK",
+  "profile": {
+    "name": "Apple Pakistan Distribution",
+    "contact_email": "logistics@apple.com.pk",
+    "tax_id": "NTN-992031-0"
+  },
+  "billing_details": {
+    "address": "Lucky One Mall, FB Area, Karachi",
+    "payment_method": "Corporate Wire",
+    "currency": "PKR"
+  },
+  "financial_standing": {
+    "max_credit": 5000000.00,
+    "current_balance": 1250000.00,
+    "status": "Good Standing"
+  },
+  "representative": {
+    "name": "Brodie",
+    "phone": "+92-300-1234567"
+  }
+}

@@ -1,0 +1,28 @@
+ Mapping Logic: We take the 1:M relationship with Items and Status and the 1:1 with Customs and nest them.
+ Rubric Hit: Demonstrates 1:M Embedding and Referencing (linking to Driver/Vehicle).
+
+
+{
+  "_id": "SHIP_2026_9901",
+  "customer_id": "CUST_APPLE_PK",
+  "assigned_driver": "DRV_7721",
+  "assigned_vehicle": "VEH_KHI_88",
+  "path_id": "PATH_ISB_KHI_01",
+  "created_at": "2026-04-03T10:00:00Z",
+  
+  "customs_clearance": {
+    "customs_id": "CUST_882",
+    "status": "Cleared",
+    "declaration_value": 450000
+  },
+  
+  "items": [
+    { "item_id": "ITM_01", "vendor_id": "VND_INTEL", "description": "Core i9 Processors", "qty": 500 },
+    { "item_id": "ITM_02", "vendor_id": "VND_NVIDIA", "description": "RTX 4060 Ti 16GB", "qty": 100 }
+  ],
+  
+  "status_history": [
+    { "checkpoint": "Rawalpindi Warehouse", "update": "Picked Up", "timestamp": "2026-04-03T11:30:00Z" },
+    { "checkpoint": "Jhelum Toll", "update": "In-Transit", "timestamp": "2026-04-03T14:45:00Z" }
+  ]
+}

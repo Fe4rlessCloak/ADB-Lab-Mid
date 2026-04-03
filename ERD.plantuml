@@ -1,0 +1,336 @@
+@startuml
+hide circle
+skinparam linetype ortho
+skinparam EntityBackgroundColor #f9f9f9
+skinparam EntityBorderColor #333333
+
+' =========================================
+' SHIPMENT OPS (Atomic)
+' =========================================
+entity "Shipment" as shipment {
+  * shipment_id : INT <<PK>>
+  --
+  customer_id : INT <<FK>>
+  path_id : INT <<FK>>
+  driver_id : INT <<FK>>
+  vehicle_id : INT <<FK>>
+  created_at : TIMESTAMP
+}
+
+entity "Item" as item {
+  * item_id : INT <<PK>>
+  --
+  shipment_id : INT <<FK>>
+  vendor_id : INT <<FK>>
+  description : VARCHAR
+}
+
+entity "Customs" as customs {
+  * customs_id : INT <<PK>>
+  --
+  shipment_id : INT <<FK>>
+  clearance_status : VARCHAR
+}
+
+entity "Status" as status {
+  * status_id : INT <<PK>>
+  --
+  shipment_id : INT <<FK>>
+  status_update : VARCHAR
+  timestamp : TIMESTAMP
+}
+
+' =========================================
+' DRIVER PERFORMANCE (Atomic)
+' =========================================
+entity "Driver" as driver {
+  * driver_id : INT <<PK>>
+  --
+  name : VARCHAR
+}
+
+entity "License" as license {
+  * license_id : INT <<PK>>
+  --
+  driver_id : INT <<FK>>
+  expiration_date : DATE
+}
+
+entity "Complaint" as complaint {
+  * complaint_id : INT <<PK>>
+  --
+  driver_id : INT <<FK>>
+  details : TEXT
+}
+
+entity "SafetyRecord" as safety_record {
+  * record_id : INT <<PK>>
+  --
+  driver_id : INT <<FK>>
+  score : INT
+}
+
+' =========================================
+' FLEET ASSETS (Atomic)
+' =========================================
+entity "VehicleSpec" as vehicle {
+  * vehicle_id : INT <<PK>>
+  --
+  make_model : VARCHAR
+  capacity : DECIMAL
+}
+
+entity "Registration" as registration {
+  * registration_id : INT <<PK>>
+  --
+  vehicle_id : INT <<FK>>
+  plate_number : VARCHAR
+}
+
+entity "CurrentHealth" as health {
+  * health_id : INT <<PK>>
+  --
+  vehicle_id : INT <<FK>>
+  engine_status : VARCHAR
+}
+
+' =========================================
+' WAREHOUSE HUBS (Atomic)
+' =========================================
+entity "Building" as building {
+  * building_id : INT <<PK>>
+  --
+  province_id : INT <<FK>>
+  address : VARCHAR
+}
+
+entity "Security" as security {
+  * security_id : INT <<PK>>
+  --
+  building_id : INT <<FK>>
+  access_level : VARCHAR
+}
+
+entity "BinLocation" as bin {
+  * bin_id : INT <<PK>>
+  --
+  building_id : INT <<FK>>
+  aisle_number : VARCHAR
+}
+
+entity "LoadingDock" as dock {
+  * dock_id : INT <<PK>>
+  --
+  building_id : INT <<FK>>
+  dock_number : INT
+}
+
+' =========================================
+' ROUTE INTELLIGENCE (Atomic)
+' =========================================
+entity "Path" as path {
+  * path_id : INT <<PK>>
+  --
+  origin : VARCHAR
+  destination : VARCHAR
+}
+
+entity "Toll" as toll {
+  * toll_id : INT <<PK>>
+  --
+  path_id : INT <<FK>>
+  cost : DECIMAL
+}
+
+entity "WeatherPattern" as weather {
+  * weather_id : INT <<PK>>
+  --
+  path_id : INT <<FK>>
+  forecast : VARCHAR
+}
+
+entity "TrafficHistory" as traffic {
+  * traffic_id : INT <<PK>>
+  --
+  path_id : INT <<FK>>
+  congestion_level : VARCHAR
+}
+
+' =========================================
+' HIGH-VOLUME DATA (Atomic)
+' =========================================
+entity "TelemetryStream" as telemetry {
+  * telemetry_id : INT <<PK>>
+  --
+  vehicle_id : INT <<FK>>
+  gps_lat : DECIMAL
+  gps_long : DECIMAL
+  speed : DECIMAL
+  timestamp : TIMESTAMP
+}
+
+entity "MaintenanceHistory" as maintenance {
+  * maintenance_id : INT <<PK>>
+  --
+  vehicle_id : INT <<FK>>
+  repair_cost : DECIMAL
+  date : DATE
+}
+
+entity "AuditLog" as audit {
+  * log_id : INT <<PK>>
+  --
+  user_action : VARCHAR
+  timestamp : TIMESTAMP
+}
+
+' =========================================
+' RELATIONSHIP LINKS (Now Fully Atomic)
+' =========================================
+
+' 1. Client Portals
+entity "CustomerProfile" as customer {
+  * customer_id : INT <<PK>>
+  --
+  name : VARCHAR
+  contact_email : VARCHAR
+}
+
+entity "Billing" as billing {
+  * billing_id : INT <<PK>>
+  --
+  customer_id : INT <<FK>>
+  billing_address : VARCHAR
+}
+
+entity "CreditLimit" as credit {
+  * credit_id : INT <<PK>>
+  --
+  customer_id : INT <<FK>>
+  max_credit : DECIMAL
+}
+
+' 2. Supplier Network
+entity "Vendor" as vendor {
+  * vendor_id : INT <<PK>>
+  --
+  name : VARCHAR
+}
+
+entity "VendorDetail" as vendor_detail {
+  * detail_id : INT <<PK>>
+  --
+  vendor_id : INT <<FK>>
+  contact_info : VARCHAR
+}
+
+' 3. Regional Policies
+entity "Province" as province {
+  * province_id : INT <<PK>>
+  --
+  name : VARCHAR
+}
+
+entity "TaxRule" as tax {
+  * tax_id : INT <<PK>>
+  --
+  province_id : INT <<FK>>
+  rate : DECIMAL
+}
+
+entity "LocalLaw" as law {
+  * law_id : INT <<PK>>
+  --
+  province_id : INT <<FK>>
+  law_text : TEXT
+}
+
+entity "ManagementContact" as management {
+  * contact_id : INT <<PK>>
+  --
+  province_id : INT <<FK>>
+  phone_number : VARCHAR
+}
+
+' 4. Incident Reports
+entity "Incident" as incident {
+  * incident_id : INT <<PK>>
+  --
+  driver_id : INT <<FK>>
+  vehicle_id : INT <<FK>>
+  shipment_id : INT <<FK>>
+  incident_type : VARCHAR
+}
+
+entity "Investigation" as investigation {
+  * investigation_id : INT <<PK>>
+  --
+  incident_id : INT <<FK>>
+  details : TEXT
+}
+
+entity "InsuranceClaim" as insurance {
+  * claim_id : INT <<PK>>
+  --
+  incident_id : INT <<FK>>
+  status : VARCHAR
+}
+
+' =========================================
+' RELATIONSHIPS
+' =========================================
+
+' Shipment Ops & Core Links
+customer ||--o{ shipment
+shipment ||--o{ item
+vendor ||--o{ item
+shipment ||--|| customs
+shipment ||--o{ status
+driver ||--o{ shipment
+vehicle ||--o{ shipment
+path ||--o{ shipment
+
+' Driver Performance
+driver ||--|| license
+driver ||--o{ complaint
+driver ||--o{ safety_record
+
+' Fleet Assets
+vehicle ||--|| registration
+vehicle ||--|| health
+
+' Warehouse Hubs
+province ||--o{ building
+building ||--|| security
+building ||--o{ bin
+building ||--o{ dock
+
+' Route Intelligence
+path ||--o{ toll
+path ||--o{ weather
+path ||--o{ traffic
+
+' High Volume
+vehicle ||--o{ telemetry
+vehicle ||--o{ maintenance
+
+' Client Portals (Atomic Links)
+customer ||--|| billing
+customer ||--|| credit
+
+' Supplier Network (Atomic Links)
+vendor ||--|| vendor_detail
+
+' Regional Policies (Atomic Links)
+province ||--o{ tax
+province ||--o{ law
+province ||--o{ management
+
+' Incident Reports (Atomic Links)
+driver ||--o{ incident
+vehicle ||--o{ incident
+shipment ||--o{ incident
+incident ||--|| investigation
+incident ||--o{ insurance
+
+@enduml

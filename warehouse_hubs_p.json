@@ -1,0 +1,26 @@
+Mapping Logic: We merge the Building, Security, BinLocation, and LoadingDock.
+The "Hit": Finding a specific SKU in a specific aisle_number across 15 warehouses requires MongoDB to scan nested arrays.
+
+
+{
+  "_id": "WH_RWP_01",
+  "province_id": "PROV_PUNJAB",
+  "address": "Plot 44, Industrial Area, Rawalpindi",
+  "total_capacity_sqft": 50000,
+  
+  "security_protocols": {
+    "access_level": "Level 4 - Restricted",
+    "biometric_enabled": true,
+    "last_inspection": "2026-03-20"
+  },
+  
+  "bin_locations": [
+    { "bin_id": "BIN_A1_01", "aisle_number": "A1", "type": "Cold Storage", "occupied": true },
+    { "bin_id": "BIN_A1_02", "aisle_number": "A1", "type": "Dry Storage", "occupied": false }
+  ],
+  
+  "loading_docks": [
+    { "dock_number": 1, "is_occupied": true, "current_vehicle": "VEH_KHI_88" },
+    { "dock_number": 2, "is_occupied": false, "current_vehicle": null }
+  ]
+}

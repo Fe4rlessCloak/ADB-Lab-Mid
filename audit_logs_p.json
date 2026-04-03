@@ -1,0 +1,18 @@
+Mapping Logic: Flat, High-Velocity data.
+The "Hit": This is a "Write-Heavy" collection. Every time your "Nexus Logistics" staff changes a status or deletes a record, a log is born.
+Rubric Hit: You can explain that this is kept separate to ensure Immutable History—you don't want audit logs being deleted if a shipment is deleted.
+
+{
+  "_id": "LOG_88291033",
+  "user_id": "USER_ADMIN_ABDULLAH",
+  "action": "UPDATE_SHIPMENT_STATUS",
+  "context": {
+    "collection": "shipment_ops",
+    "document_id": "SHIP_2026_9901",
+    "field": "status",
+    "old_value": "Warehouse",
+    "new_value": "In-Transit"
+  },
+  "ip_address": "192.168.1.45",
+  "timestamp": "2026-04-03T22:45:00Z"
+}

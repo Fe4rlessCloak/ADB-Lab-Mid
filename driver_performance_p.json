@@ -1,0 +1,20 @@
+Mapping Logic: We merge the License (1:1) and Complaints/Safety (1:M).
+Rubric Hit: Demonstrates Normalization to Denormalization transformation.
+
+
+{
+  "_id": "DRV_7721",
+  "name": "Abdullah Brodie",
+  "license_details": {
+    "license_id": "LNC_PK_9920",
+    "class": "Heavy Commercial",
+    "expiration_date": "2028-12-31"
+  },
+  "safety_score": 92,
+  "incident_history": [
+    { "record_id": "SR_101", "event": "Minor Scrape", "score_impact": -2, "date": "2025-11-15" }
+  ],
+  "customer_complaints": [
+    { "complaint_id": "CMP_441", "details": "Delayed delivery due to extra break", "timestamp": "2026-01-10" }
+  ]
+}

@@ -1,0 +1,17 @@
+Mapping Logic: Unlike the others, we DO NOT embed this. It stays atomic and referenced to the vehicle_id.
+The "Hit": This collection will have thousands of entries. A query to find a truck's location history over 30 days without a Compound Index on vehicle_id and timestamp will be incredibly slow.
+
+{
+  "_id": "TEL_9920311",
+  "vehicle_id": "VEH_KHI_88",
+  "gps": {
+    "lat": 33.6844,
+    "long": 73.0479
+  },
+  "metrics": {
+    "speed_kph": 82.5,
+    "fuel_level_percent": 64,
+    "engine_temp_c": 92
+  },
+  "timestamp": "2026-04-03T22:30:00Z"
+}

@@ -1,0 +1,19 @@
+Mapping Logic: Atomic and Referenced.
+The "Hit": To calculate the Total Cost of Ownership (TCO), you have to run an aggregation that joins fleet_assets with this collection. Without an index on vehicle_id, scanning 10,000 repair logs for a specific truck will be slow.
+
+{
+  "_id": "MAINT_2026_04_001",
+  "vehicle_id": "VEH_KHI_88",
+  "service_type": "Scheduled",
+  "repair_details": {
+    "description": "Oil filter replacement and tire rotation",
+    "parts_replaced": ["Filter-X9", "Synthetic-Oil-5L"],
+    "mechanic_id": "MECH_007"
+  },
+  "financials": {
+    "repair_cost": 4500.00,
+    "currency": "PKR",
+    "invoice_ref": "INV_SER_992"
+  },
+  "date": "2026-04-01"
+}

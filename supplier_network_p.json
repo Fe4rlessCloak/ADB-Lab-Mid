@@ -1,0 +1,15 @@
+Mapping Logic: Merged (Vendor + Vendor Detail).
+The "Hit": Finding a specific vendor's contact information when an item is damaged. By embedding the details, you avoid a join every time you look at a supplier.
+
+{
+  "_id": "VND_INTEL_ASIA",
+  "vendor_name": "Intel Semiconductor Ltd.",
+  "category": "Electronics",
+  "contact_details": {
+    "primary_email": "shipping@intel.com.my",
+    "phone": "+60-3-1234-5678",
+    "address": "Penang Free Trade Zone, Malaysia"
+  },
+  "performance_rating": 4.9,
+  "active_contracts": ["CN-2026-X1", "CN-2026-X2"]
+}
