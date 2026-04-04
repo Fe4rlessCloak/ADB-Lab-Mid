@@ -1,0 +1,1252 @@
+[
+  {
+    "_id": "INC_2026_2574",
+    "related_ids": {
+      "driver_id": "DRV_7795",
+      "vehicle_id": "VEH_kLV_94",
+      "shipment_id": "SHIP_2026_3362"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Low",
+      "location": "7962 Griffin Street\nTylermouth, MH 27016",
+      "timestamp": "2026-04-01 12:57:09.376428"
+    },
+    "investigation": {
+      "investigation_id": "INV_932",
+      "details": "Example whether various could rock.",
+      "investigator_name": "Miranda Harrison"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3856",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 579369.0
+    }
+  },
+  {
+    "_id": "INC_2026_8606",
+    "related_ids": {
+      "driver_id": "DRV_5724",
+      "vehicle_id": "VEH_WQo_49",
+      "shipment_id": "SHIP_2026_8868"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Low",
+      "location": "659 Murphy Springs Apt. 963\nLake Brendaside, SC 84087",
+      "timestamp": "2026-04-03 09:39:35.693012"
+    },
+    "investigation": {
+      "investigation_id": "INV_050",
+      "details": "Say stay writer leg.",
+      "investigator_name": "Lauren Edwards"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3544",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 535066.0
+    }
+  },
+  {
+    "_id": "INC_2026_5067",
+    "related_ids": {
+      "driver_id": "DRV_1756",
+      "vehicle_id": "VEH_EYN_55",
+      "shipment_id": "SHIP_2026_8812"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "High",
+      "location": "84347 Jeffery Plaza\nLake Adamfort, WI 75135",
+      "timestamp": "2026-04-02 04:40:35.118000"
+    },
+    "investigation": {
+      "investigation_id": "INV_261",
+      "details": "Model arm professional over magazine event.",
+      "investigator_name": "Grace Figueroa"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_5077",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 286842.0
+    }
+  },
+  {
+    "_id": "INC_2026_2709",
+    "related_ids": {
+      "driver_id": "DRV_7795",
+      "vehicle_id": "VEH_YBG_67",
+      "shipment_id": "SHIP_2026_8129"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Low",
+      "location": "3491 Allen Cliffs\nNorth Brandi, NV 62221",
+      "timestamp": "2026-04-02 19:09:10.895058"
+    },
+    "investigation": {
+      "investigation_id": "INV_608",
+      "details": "Entire walk customer unit two value official.",
+      "investigator_name": "Dustin Carter"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_1262",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 1106327.0
+    }
+  },
+  {
+    "_id": "INC_2026_2000",
+    "related_ids": {
+      "driver_id": "DRV_4748",
+      "vehicle_id": "VEH_VXH_44",
+      "shipment_id": "SHIP_2026_9629"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Medium",
+      "location": "780 Flores Oval\nMonroemouth, PW 94159",
+      "timestamp": "2026-04-01 10:34:34.740477"
+    },
+    "investigation": {
+      "investigation_id": "INV_173",
+      "details": "Anything test including media eye.",
+      "investigator_name": "Christopher Clark"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_9643",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 20256.0
+    }
+  },
+  {
+    "_id": "INC_2026_2617",
+    "related_ids": {
+      "driver_id": "DRV_4121",
+      "vehicle_id": "VEH_oCx_46",
+      "shipment_id": "SHIP_2026_7458"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Low",
+      "location": "554 Wallace Divide Suite 261\nWest Michaelberg, ND 51451",
+      "timestamp": "2026-04-02 09:17:55.003203"
+    },
+    "investigation": {
+      "investigation_id": "INV_355",
+      "details": "Would a everything few identify.",
+      "investigator_name": "Jennifer Walker"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_6314",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 685968.0
+    }
+  },
+  {
+    "_id": "INC_2026_4555",
+    "related_ids": {
+      "driver_id": "DRV_9331",
+      "vehicle_id": "VEH_CRl_76",
+      "shipment_id": "SHIP_2026_1023"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Medium",
+      "location": "PSC 3674, Box 5936\nAPO AE 96911",
+      "timestamp": "2026-04-02 03:21:47.252786"
+    },
+    "investigation": {
+      "investigation_id": "INV_425",
+      "details": "Them region out stage region cost.",
+      "investigator_name": "Patrick Summers"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_7162",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 289033.0
+    }
+  },
+  {
+    "_id": "INC_2026_6808",
+    "related_ids": {
+      "driver_id": "DRV_9749",
+      "vehicle_id": "VEH_YBG_67",
+      "shipment_id": "SHIP_2026_6037"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Medium",
+      "location": "8281 Colon Vista\nLukeville, NM 16037",
+      "timestamp": "2026-04-01 03:44:50.600540"
+    },
+    "investigation": {
+      "investigation_id": "INV_491",
+      "details": "Authority environment generation final rock share then.",
+      "investigator_name": "Connor Johnson"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3056",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 772589.0
+    }
+  },
+  {
+    "_id": "INC_2026_6607",
+    "related_ids": {
+      "driver_id": "DRV_3311",
+      "vehicle_id": "VEH_lTI_53",
+      "shipment_id": "SHIP_2026_4050"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "High",
+      "location": "987 Stevens Parks\nMillerview, MI 91385",
+      "timestamp": "2026-04-04 08:45:04.609514"
+    },
+    "investigation": {
+      "investigation_id": "INV_933",
+      "details": "Whatever though war.",
+      "investigator_name": "Rebecca Huff"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_8189",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1152071.0
+    }
+  },
+  {
+    "_id": "INC_2026_1897",
+    "related_ids": {
+      "driver_id": "DRV_5592",
+      "vehicle_id": "VEH_cOr_62",
+      "shipment_id": "SHIP_2026_1067"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "High",
+      "location": "420 Garza Expressway Suite 805\nMartinberg, TX 46462",
+      "timestamp": "2026-04-04 05:57:28.746716"
+    },
+    "investigation": {
+      "investigation_id": "INV_629",
+      "details": "Beat meet a compare affect individual.",
+      "investigator_name": "Linda Williams"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3497",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 185287.0
+    }
+  },
+  {
+    "_id": "INC_2026_3045",
+    "related_ids": {
+      "driver_id": "DRV_6230",
+      "vehicle_id": "VEH_WcV_25",
+      "shipment_id": "SHIP_2026_7544"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Medium",
+      "location": "338 Williams Glens\nOrtegaland, SD 06665",
+      "timestamp": "2026-04-02 17:24:48.574700"
+    },
+    "investigation": {
+      "investigation_id": "INV_128",
+      "details": "Business person house draw eye hair so.",
+      "investigator_name": "Andrew Shelton"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_5450",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 1812098.0
+    }
+  },
+  {
+    "_id": "INC_2026_8295",
+    "related_ids": {
+      "driver_id": "DRV_6141",
+      "vehicle_id": "VEH_okW_35",
+      "shipment_id": "SHIP_2026_6775"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Medium",
+      "location": "PSC 1940, Box 9286\nAPO AP 04132",
+      "timestamp": "2026-04-02 08:39:13.163090"
+    },
+    "investigation": {
+      "investigation_id": "INV_217",
+      "details": "Glass back whatever country identify yes.",
+      "investigator_name": "Wanda Scott"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3988",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1753236.0
+    }
+  },
+  {
+    "_id": "INC_2026_5297",
+    "related_ids": {
+      "driver_id": "DRV_9749",
+      "vehicle_id": "VEH_IXe_36",
+      "shipment_id": "SHIP_2026_3961"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Medium",
+      "location": "241 Michael Brook Apt. 325\nChristophershire, HI 42612",
+      "timestamp": "2026-04-03 21:44:20.597838"
+    },
+    "investigation": {
+      "investigation_id": "INV_512",
+      "details": "Style realize Mr these quickly find camera president.",
+      "investigator_name": "Gabrielle Hicks"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3352",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 183742.0
+    }
+  },
+  {
+    "_id": "INC_2026_9458",
+    "related_ids": {
+      "driver_id": "DRV_4121",
+      "vehicle_id": "VEH_kIJ_62",
+      "shipment_id": "SHIP_2026_7721"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Low",
+      "location": "USNV Bradley\nFPO AE 13803",
+      "timestamp": "2026-04-01 12:33:27.108959"
+    },
+    "investigation": {
+      "investigation_id": "INV_956",
+      "details": "Team spend course across bar pattern about.",
+      "investigator_name": "Frank Arnold"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_9142",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1055974.0
+    }
+  },
+  {
+    "_id": "INC_2026_7753",
+    "related_ids": {
+      "driver_id": "DRV_5592",
+      "vehicle_id": "VEH_aFU_85",
+      "shipment_id": "SHIP_2026_3212"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Low",
+      "location": "522 Joseph Mills Apt. 313\nStoneview, FM 70941",
+      "timestamp": "2026-04-04 09:57:18.750076"
+    },
+    "investigation": {
+      "investigation_id": "INV_236",
+      "details": "When one daughter create leg.",
+      "investigator_name": "Christopher Estrada"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_1534",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 629453.0
+    }
+  },
+  {
+    "_id": "INC_2026_1426",
+    "related_ids": {
+      "driver_id": "DRV_5491",
+      "vehicle_id": "VEH_aFU_85",
+      "shipment_id": "SHIP_2026_9946"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "High",
+      "location": "0145 Baxter Ports Apt. 290\nNew Kristinaburgh, UT 69771",
+      "timestamp": "2026-04-02 21:13:27.037575"
+    },
+    "investigation": {
+      "investigation_id": "INV_538",
+      "details": "Morning economic focus marriage race sure skin.",
+      "investigator_name": "Alicia Galvan"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_1355",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1672374.0
+    }
+  },
+  {
+    "_id": "INC_2026_4856",
+    "related_ids": {
+      "driver_id": "DRV_8203",
+      "vehicle_id": "VEH_bge_54",
+      "shipment_id": "SHIP_2026_9319"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Medium",
+      "location": "671 Lewis Pike\nNorth Logan, ID 19548",
+      "timestamp": "2026-04-04 14:42:27.551919"
+    },
+    "investigation": {
+      "investigation_id": "INV_381",
+      "details": "Long speak mother best improve level.",
+      "investigator_name": "Michael Barajas"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_2619",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 527727.0
+    }
+  },
+  {
+    "_id": "INC_2026_2714",
+    "related_ids": {
+      "driver_id": "DRV_6230",
+      "vehicle_id": "VEH_gos_00",
+      "shipment_id": "SHIP_2026_4113"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Low",
+      "location": "55307 Samantha Pine\nNew Kristenville, HI 49259",
+      "timestamp": "2026-04-03 14:43:50.232491"
+    },
+    "investigation": {
+      "investigation_id": "INV_162",
+      "details": "Democrat actually meeting time summer seem air.",
+      "investigator_name": "James Martin"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_1010",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 246334.0
+    }
+  },
+  {
+    "_id": "INC_2026_8877",
+    "related_ids": {
+      "driver_id": "DRV_5724",
+      "vehicle_id": "VEH_paN_15",
+      "shipment_id": "SHIP_2026_5555"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Medium",
+      "location": "872 Andrea Vista\nNew Christopher, ND 18573",
+      "timestamp": "2026-04-04 05:05:01.100291"
+    },
+    "investigation": {
+      "investigation_id": "INV_948",
+      "details": "All difference result alone.",
+      "investigator_name": "Jill Love"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_0165",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 297765.0
+    }
+  },
+  {
+    "_id": "INC_2026_4178",
+    "related_ids": {
+      "driver_id": "DRV_6141",
+      "vehicle_id": "VEH_DeL_46",
+      "shipment_id": "SHIP_2026_9122"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Low",
+      "location": "831 Rollins Spring\nNorth Danielletown, MH 49396",
+      "timestamp": "2026-04-02 23:45:15.968718"
+    },
+    "investigation": {
+      "investigation_id": "INV_095",
+      "details": "General author back budget skin maybe.",
+      "investigator_name": "Traci Mcdonald"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_9736",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 781131.0
+    }
+  },
+  {
+    "_id": "INC_2026_6053",
+    "related_ids": {
+      "driver_id": "DRV_5465",
+      "vehicle_id": "VEH_byr_15",
+      "shipment_id": "SHIP_2026_6403"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "High",
+      "location": "6869 Cherry Fall\nNorth Gabriel, AR 04947",
+      "timestamp": "2026-04-02 02:36:00.890885"
+    },
+    "investigation": {
+      "investigation_id": "INV_134",
+      "details": "Certainly like local thought.",
+      "investigator_name": "Jared Hoover"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_2452",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 572022.0
+    }
+  },
+  {
+    "_id": "INC_2026_2346",
+    "related_ids": {
+      "driver_id": "DRV_6510",
+      "vehicle_id": "VEH_gos_00",
+      "shipment_id": "SHIP_2026_2213"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Medium",
+      "location": "1438 Kim Key Suite 520\nSherylville, HI 93110",
+      "timestamp": "2026-04-04 13:52:34.895524"
+    },
+    "investigation": {
+      "investigation_id": "INV_814",
+      "details": "Hold quickly local drop true.",
+      "investigator_name": "Taylor Hartman"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_1448",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 415494.0
+    }
+  },
+  {
+    "_id": "INC_2026_4596",
+    "related_ids": {
+      "driver_id": "DRV_5724",
+      "vehicle_id": "VEH_Ipw_59",
+      "shipment_id": "SHIP_2026_7544"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Medium",
+      "location": "362 Joel Mount Suite 060\nKathleenstad, TN 57811",
+      "timestamp": "2026-04-03 15:42:25.789553"
+    },
+    "investigation": {
+      "investigation_id": "INV_971",
+      "details": "Wide debate stage practice practice career.",
+      "investigator_name": "Alyssa Rodriguez"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_0442",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 727492.0
+    }
+  },
+  {
+    "_id": "INC_2026_6093",
+    "related_ids": {
+      "driver_id": "DRV_6850",
+      "vehicle_id": "VEH_qJH_33",
+      "shipment_id": "SHIP_2026_6042"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "High",
+      "location": "180 Beck Inlet Suite 812\nNorth Kristineburgh, NM 29961",
+      "timestamp": "2026-04-04 07:41:31.949814"
+    },
+    "investigation": {
+      "investigation_id": "INV_106",
+      "details": "Human young year lay provide walk court.",
+      "investigator_name": "Richard Hester"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3789",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 1072638.0
+    }
+  },
+  {
+    "_id": "INC_2026_1342",
+    "related_ids": {
+      "driver_id": "DRV_9331",
+      "vehicle_id": "VEH_kIJ_62",
+      "shipment_id": "SHIP_2026_8999"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Medium",
+      "location": "021 Stevens Green\nLake Michael, PA 98280",
+      "timestamp": "2026-04-01 05:56:20.507414"
+    },
+    "investigation": {
+      "investigation_id": "INV_414",
+      "details": "Claim than low claim deep detail heavy.",
+      "investigator_name": "Roger Green"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_6118",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 38541.0
+    }
+  },
+  {
+    "_id": "INC_2026_7865",
+    "related_ids": {
+      "driver_id": "DRV_2483",
+      "vehicle_id": "VEH_WQo_49",
+      "shipment_id": "SHIP_2026_9803"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Medium",
+      "location": "37956 Stevenson Harbor\nJohnsonstad, KY 12113",
+      "timestamp": "2026-04-03 15:03:31.670605"
+    },
+    "investigation": {
+      "investigation_id": "INV_975",
+      "details": "Purpose song food mother if various consider husband.",
+      "investigator_name": "Tina Hernandez"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_5778",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1354300.0
+    }
+  },
+  {
+    "_id": "INC_2026_5725",
+    "related_ids": {
+      "driver_id": "DRV_6813",
+      "vehicle_id": "VEH_WQo_49",
+      "shipment_id": "SHIP_2026_6275"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "High",
+      "location": "Unit 7783 Box 7814\nDPO AA 73818",
+      "timestamp": "2026-04-01 11:15:29.047240"
+    },
+    "investigation": {
+      "investigation_id": "INV_013",
+      "details": "Process box challenge scientist half hand ahead.",
+      "investigator_name": "Johnathan Smith"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_4228",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 197192.0
+    }
+  },
+  {
+    "_id": "INC_2026_7455",
+    "related_ids": {
+      "driver_id": "DRV_5465",
+      "vehicle_id": "VEH_DeL_46",
+      "shipment_id": "SHIP_2026_2556"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Medium",
+      "location": "8696 Green Divide Suite 921\nIanstad, MN 03506",
+      "timestamp": "2026-04-02 11:59:46.883682"
+    },
+    "investigation": {
+      "investigation_id": "INV_755",
+      "details": "Note fall thing ready seem himself in stock.",
+      "investigator_name": "Jocelyn White DVM"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_6738",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 1009383.0
+    }
+  },
+  {
+    "_id": "INC_2026_5755",
+    "related_ids": {
+      "driver_id": "DRV_4172",
+      "vehicle_id": "VEH_Ipw_59",
+      "shipment_id": "SHIP_2026_4777"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Low",
+      "location": "USNV Patterson\nFPO AA 27075",
+      "timestamp": "2026-04-02 21:52:09.412897"
+    },
+    "investigation": {
+      "investigation_id": "INV_051",
+      "details": "Threat either trial.",
+      "investigator_name": "Kathleen Lowe"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_4016",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 738677.0
+    }
+  },
+  {
+    "_id": "INC_2026_3191",
+    "related_ids": {
+      "driver_id": "DRV_8748",
+      "vehicle_id": "VEH_Hbe_95",
+      "shipment_id": "SHIP_2026_9032"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Medium",
+      "location": "06242 Earl Islands Suite 529\nNew Calebbury, CA 97795",
+      "timestamp": "2026-04-04 04:42:27.570817"
+    },
+    "investigation": {
+      "investigation_id": "INV_993",
+      "details": "Size day maintain on relationship woman piece as.",
+      "investigator_name": "William Park"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_0655",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 491043.0
+    }
+  },
+  {
+    "_id": "INC_2026_2737",
+    "related_ids": {
+      "driver_id": "DRV_8687",
+      "vehicle_id": "VEH_CRl_76",
+      "shipment_id": "SHIP_2026_7843"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Low",
+      "location": "3447 Hayes Forges\nEast Cynthia, MA 52504",
+      "timestamp": "2026-04-04 16:40:56.161690"
+    },
+    "investigation": {
+      "investigation_id": "INV_597",
+      "details": "Floor sister east network need.",
+      "investigator_name": "Brittany Hill"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_6900",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1329407.0
+    }
+  },
+  {
+    "_id": "INC_2026_3866",
+    "related_ids": {
+      "driver_id": "DRV_6141",
+      "vehicle_id": "VEH_Iuf_93",
+      "shipment_id": "SHIP_2026_6807"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "High",
+      "location": "7448 Tommy Springs\nEast John, ME 59514",
+      "timestamp": "2026-04-02 03:24:10.025189"
+    },
+    "investigation": {
+      "investigation_id": "INV_183",
+      "details": "Close foreign present development thus no head.",
+      "investigator_name": "Alyssa Davis"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_6737",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 586059.0
+    }
+  },
+  {
+    "_id": "INC_2026_7171",
+    "related_ids": {
+      "driver_id": "DRV_4938",
+      "vehicle_id": "VEH_okW_35",
+      "shipment_id": "SHIP_2026_4527"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "High",
+      "location": "USNV George\nFPO AP 07649",
+      "timestamp": "2026-04-03 02:14:09.009995"
+    },
+    "investigation": {
+      "investigation_id": "INV_462",
+      "details": "Animal else figure live run degree push.",
+      "investigator_name": "Louis Williams"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_4465",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 742102.0
+    }
+  },
+  {
+    "_id": "INC_2026_8683",
+    "related_ids": {
+      "driver_id": "DRV_4938",
+      "vehicle_id": "VEH_bge_54",
+      "shipment_id": "SHIP_2026_9629"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "High",
+      "location": "030 Alyssa Pine Suite 786\nLake Jordan, SD 74417",
+      "timestamp": "2026-04-04 09:15:28.808818"
+    },
+    "investigation": {
+      "investigation_id": "INV_906",
+      "details": "Assume cost necessary area already police network other.",
+      "investigator_name": "Krista Nelson"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3749",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 1927641.0
+    }
+  },
+  {
+    "_id": "INC_2026_6303",
+    "related_ids": {
+      "driver_id": "DRV_4121",
+      "vehicle_id": "VEH_VXH_44",
+      "shipment_id": "SHIP_2026_3450"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "High",
+      "location": "951 Foster Ports Apt. 416\nWoodardhaven, VT 02571",
+      "timestamp": "2026-04-04 05:49:24.746078"
+    },
+    "investigation": {
+      "investigation_id": "INV_120",
+      "details": "Draw security question.",
+      "investigator_name": "Robert Campos"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_7600",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 555192.0
+    }
+  },
+  {
+    "_id": "INC_2026_8778",
+    "related_ids": {
+      "driver_id": "DRV_6510",
+      "vehicle_id": "VEH_htl_69",
+      "shipment_id": "SHIP_2026_9244"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Medium",
+      "location": "77719 Angela Alley\nEricksonhaven, IL 56410",
+      "timestamp": "2026-04-02 09:09:23.832803"
+    },
+    "investigation": {
+      "investigation_id": "INV_444",
+      "details": "World until into think out science structure authority.",
+      "investigator_name": "David Perry DVM"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_7068",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 458989.0
+    }
+  },
+  {
+    "_id": "INC_2026_8036",
+    "related_ids": {
+      "driver_id": "DRV_6813",
+      "vehicle_id": "VEH_JNR_32",
+      "shipment_id": "SHIP_2026_3607"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Low",
+      "location": "323 Mccarthy Lake Apt. 946\nHamiltonchester, MS 42915",
+      "timestamp": "2026-04-01 01:52:32.575773"
+    },
+    "investigation": {
+      "investigation_id": "INV_115",
+      "details": "Government important analysis despite manager.",
+      "investigator_name": "Tyler Zuniga"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_8260",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 1217319.0
+    }
+  },
+  {
+    "_id": "INC_2026_8037",
+    "related_ids": {
+      "driver_id": "DRV_1554",
+      "vehicle_id": "VEH_kLV_94",
+      "shipment_id": "SHIP_2026_6812"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Low",
+      "location": "7394 Ana Ford Suite 122\nNorth Allison, OR 10742",
+      "timestamp": "2026-04-03 12:43:00.257240"
+    },
+    "investigation": {
+      "investigation_id": "INV_992",
+      "details": "Source should whole body for find.",
+      "investigator_name": "Robert Nelson"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_2804",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 1108755.0
+    }
+  },
+  {
+    "_id": "INC_2026_7074",
+    "related_ids": {
+      "driver_id": "DRV_4172",
+      "vehicle_id": "VEH_kIJ_62",
+      "shipment_id": "SHIP_2026_3961"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Medium",
+      "location": "USNS Wright\nFPO AP 02685",
+      "timestamp": "2026-04-01 09:42:42.071449"
+    },
+    "investigation": {
+      "investigation_id": "INV_840",
+      "details": "Hit write doctor difficult painting to else.",
+      "investigator_name": "Tiffany Parsons"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_9331",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1913154.0
+    }
+  },
+  {
+    "_id": "INC_2026_8738",
+    "related_ids": {
+      "driver_id": "DRV_7581",
+      "vehicle_id": "VEH_lTI_53",
+      "shipment_id": "SHIP_2026_6025"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Low",
+      "location": "22188 Ramirez Trail\nHoffmanburgh, VT 40207",
+      "timestamp": "2026-04-02 03:02:07.842501"
+    },
+    "investigation": {
+      "investigation_id": "INV_125",
+      "details": "House director leave detail.",
+      "investigator_name": "Samantha Wise"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_8622",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1376858.0
+    }
+  },
+  {
+    "_id": "INC_2026_8049",
+    "related_ids": {
+      "driver_id": "DRV_6850",
+      "vehicle_id": "VEH_Ipw_59",
+      "shipment_id": "SHIP_2026_3920"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Low",
+      "location": "52456 Sonya Heights Apt. 161\nSouth James, PA 99797",
+      "timestamp": "2026-04-01 16:06:08.134233"
+    },
+    "investigation": {
+      "investigation_id": "INV_756",
+      "details": "Vote focus imagine.",
+      "investigator_name": "Amber Chandler"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_7352",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1295082.0
+    }
+  },
+  {
+    "_id": "INC_2026_8458",
+    "related_ids": {
+      "driver_id": "DRV_4113",
+      "vehicle_id": "VEH_qJH_33",
+      "shipment_id": "SHIP_2026_9866"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Low",
+      "location": "37755 Sanford Camp Apt. 538\nKennedyport, CA 07450",
+      "timestamp": "2026-04-01 09:25:47.094279"
+    },
+    "investigation": {
+      "investigation_id": "INV_318",
+      "details": "Set wish thought camera step president adult board.",
+      "investigator_name": "Marcus Sanchez"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_4053",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 1774431.0
+    }
+  },
+  {
+    "_id": "INC_2026_4618",
+    "related_ids": {
+      "driver_id": "DRV_5094",
+      "vehicle_id": "VEH_Kas_83",
+      "shipment_id": "SHIP_2026_6184"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Low",
+      "location": "52273 Sandra Mews Apt. 003\nHerreramouth, TN 74978",
+      "timestamp": "2026-04-03 06:27:01.357451"
+    },
+    "investigation": {
+      "investigation_id": "INV_764",
+      "details": "Rise customer step politics.",
+      "investigator_name": "Hannah Crawford"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_2826",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 1642403.0
+    }
+  },
+  {
+    "_id": "INC_2026_5980",
+    "related_ids": {
+      "driver_id": "DRV_2542",
+      "vehicle_id": "VEH_JMy_27",
+      "shipment_id": "SHIP_2026_8868"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Medium",
+      "location": "790 Reese Station Apt. 653\nCynthiamouth, MD 04879",
+      "timestamp": "2026-04-02 02:04:28.123816"
+    },
+    "investigation": {
+      "investigation_id": "INV_964",
+      "details": "National reveal collection onto sit page.",
+      "investigator_name": "Nicole Hodge"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_1942",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 1596234.0
+    }
+  },
+  {
+    "_id": "INC_2026_3867",
+    "related_ids": {
+      "driver_id": "DRV_3311",
+      "vehicle_id": "VEH_MaB_43",
+      "shipment_id": "SHIP_2026_9566"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Medium",
+      "location": "565 Christopher Plain\nNorth Tracyshire, GA 39021",
+      "timestamp": "2026-04-03 07:18:36.216470"
+    },
+    "investigation": {
+      "investigation_id": "INV_026",
+      "details": "Lose her power indicate feel cause value.",
+      "investigator_name": "Fernando Montgomery"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_6391",
+      "provider": "EFU General",
+      "status": "Denied",
+      "damage_est_pkr": 62754.0
+    }
+  },
+  {
+    "_id": "INC_2026_8744",
+    "related_ids": {
+      "driver_id": "DRV_9941",
+      "vehicle_id": "VEH_oCx_46",
+      "shipment_id": "SHIP_2026_1067"
+    },
+    "incident_details": {
+      "type": "Theft",
+      "severity": "Low",
+      "location": "1444 Flores Stream\nJohnsonmouth, ID 06997",
+      "timestamp": "2026-04-01 00:02:55.319648"
+    },
+    "investigation": {
+      "investigation_id": "INV_825",
+      "details": "Industry or defense television above long.",
+      "investigator_name": "Garrett Roberts"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_6731",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1368393.0
+    }
+  },
+  {
+    "_id": "INC_2026_3677",
+    "related_ids": {
+      "driver_id": "DRV_2494",
+      "vehicle_id": "VEH_NoB_58",
+      "shipment_id": "SHIP_2026_3981"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "Low",
+      "location": "319 Brianna Hill\nJamesview, WA 93945",
+      "timestamp": "2026-04-04 08:48:38.350316"
+    },
+    "investigation": {
+      "investigation_id": "INV_940",
+      "details": "Today population fact argue general message test.",
+      "investigator_name": "Roger Jensen"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_0887",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 146497.0
+    }
+  },
+  {
+    "_id": "INC_2026_3662",
+    "related_ids": {
+      "driver_id": "DRV_1756",
+      "vehicle_id": "VEH_OBZ_82",
+      "shipment_id": "SHIP_2026_5971"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "High",
+      "location": "171 Wendy Centers\nLake Andrea, DC 02735",
+      "timestamp": "2026-04-02 21:17:36.705704"
+    },
+    "investigation": {
+      "investigation_id": "INV_729",
+      "details": "Remain dream trouble bad my five.",
+      "investigator_name": "Mr. Kelly Price PhD"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_0201",
+      "provider": "EFU General",
+      "status": "In-Progress",
+      "damage_est_pkr": 320117.0
+    }
+  },
+  {
+    "_id": "INC_2026_2357",
+    "related_ids": {
+      "driver_id": "DRV_1554",
+      "vehicle_id": "VEH_HTU_96",
+      "shipment_id": "SHIP_2026_9896"
+    },
+    "incident_details": {
+      "type": "Breakdown",
+      "severity": "Medium",
+      "location": "033 Kimberly Expressway\nKentshire, VI 93820",
+      "timestamp": "2026-04-01 22:28:37.473007"
+    },
+    "investigation": {
+      "investigation_id": "INV_015",
+      "details": "Them professional lead audience around consumer test last.",
+      "investigator_name": "Dan Reed"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3855",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1098747.0
+    }
+  },
+  {
+    "_id": "INC_2026_2718",
+    "related_ids": {
+      "driver_id": "DRV_9749",
+      "vehicle_id": "VEH_WcV_25",
+      "shipment_id": "SHIP_2026_1940"
+    },
+    "incident_details": {
+      "type": "Collision",
+      "severity": "High",
+      "location": "8176 Brandon Green Apt. 259\nBanksbury, OK 20110",
+      "timestamp": "2026-04-04 00:56:08.191316"
+    },
+    "investigation": {
+      "investigation_id": "INV_591",
+      "details": "Star toward issue condition.",
+      "investigator_name": "Mrs. Michelle Becker"
+    },
+    "insurance_claim": {
+      "claim_id": "CLM_3198",
+      "provider": "EFU General",
+      "status": "Settled",
+      "damage_est_pkr": 1858911.0
+    }
+  }
+]

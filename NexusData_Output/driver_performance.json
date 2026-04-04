@@ -1,0 +1,1186 @@
+[
+  {
+    "_id": "DRV_6230",
+    "name": "Elizabeth Gibson",
+    "license_details": {
+      "license_id": "LNC_PK_2789",
+      "class": "Heavy Commercial",
+      "expiration_date": "2027-05-30"
+    },
+    "safety_score": 86,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_188",
+        "details": "Bit unit individual citizen instead kitchen according.",
+        "timestamp": "2026-01-14"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_3571",
+    "name": "Heather Rojas",
+    "license_details": {
+      "license_id": "LNC_PK_2227",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-11-21"
+    },
+    "safety_score": 69,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_785",
+        "details": "Though concern reason force they.",
+        "timestamp": "2026-02-12"
+      },
+      {
+        "complaint_id": "CMP_104",
+        "details": "Available dream church energy price.",
+        "timestamp": "2026-01-17"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_9331",
+    "name": "Michael Miller",
+    "license_details": {
+      "license_id": "LNC_PK_7758",
+      "class": "Heavy Commercial",
+      "expiration_date": "2027-05-08"
+    },
+    "safety_score": 69,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_694",
+        "details": "Give attention buy end.",
+        "timestamp": "2026-01-31"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_6564",
+    "name": "Richard Wright",
+    "license_details": {
+      "license_id": "LNC_PK_6135",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-09-14"
+    },
+    "safety_score": 68,
+    "incident_history": [],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_4748",
+    "name": "Raymond Wilson",
+    "license_details": {
+      "license_id": "LNC_PK_4417",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-10-31"
+    },
+    "safety_score": 70,
+    "incident_history": [
+      {
+        "record_id": "SR_942",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-18"
+      },
+      {
+        "record_id": "SR_108",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-29"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_805",
+        "details": "Couple sea attention certain.",
+        "timestamp": "2026-03-14"
+      },
+      {
+        "complaint_id": "CMP_047",
+        "details": "Husband with key loss.",
+        "timestamp": "2026-03-14"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_4603",
+    "name": "Brandon Gonzalez",
+    "license_details": {
+      "license_id": "LNC_PK_7832",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-09-17"
+    },
+    "safety_score": 83,
+    "incident_history": [
+      {
+        "record_id": "SR_340",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-03"
+      },
+      {
+        "record_id": "SR_111",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-06"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_462",
+        "details": "It two natural model benefit act practice.",
+        "timestamp": "2026-01-01"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_8202",
+    "name": "Greg Casey",
+    "license_details": {
+      "license_id": "LNC_PK_7695",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-12-01"
+    },
+    "safety_score": 93,
+    "incident_history": [
+      {
+        "record_id": "SR_630",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-11"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_889",
+        "details": "Federal water edge child activity.",
+        "timestamp": "2026-03-13"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_4113",
+    "name": "Joseph Saunders",
+    "license_details": {
+      "license_id": "LNC_PK_1364",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-01-02"
+    },
+    "safety_score": 65,
+    "incident_history": [
+      {
+        "record_id": "SR_652",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-18"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_092",
+        "details": "Each side amount.",
+        "timestamp": "2026-02-05"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_5703",
+    "name": "Thomas Lopez",
+    "license_details": {
+      "license_id": "LNC_PK_7663",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-05-12"
+    },
+    "safety_score": 96,
+    "incident_history": [
+      {
+        "record_id": "SR_204",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-08"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_7581",
+    "name": "Christopher Curry",
+    "license_details": {
+      "license_id": "LNC_PK_6531",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-02-11"
+    },
+    "safety_score": 96,
+    "incident_history": [
+      {
+        "record_id": "SR_385",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-01"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_838",
+        "details": "Happen it audience method important everything push.",
+        "timestamp": "2026-01-16"
+      },
+      {
+        "complaint_id": "CMP_624",
+        "details": "Although say science series guess.",
+        "timestamp": "2026-01-23"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_2729",
+    "name": "Rachel Owens",
+    "license_details": {
+      "license_id": "LNC_PK_2961",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-10-04"
+    },
+    "safety_score": 83,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_182",
+        "details": "Democratic stop outside if positive.",
+        "timestamp": "2026-02-02"
+      },
+      {
+        "complaint_id": "CMP_074",
+        "details": "Home new white customer total social head front.",
+        "timestamp": "2026-02-23"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_2542",
+    "name": "Eric Rose",
+    "license_details": {
+      "license_id": "LNC_PK_1296",
+      "class": "Heavy Commercial",
+      "expiration_date": "2027-05-03"
+    },
+    "safety_score": 89,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_539",
+        "details": "Realize ok several minute onto partner soldier.",
+        "timestamp": "2026-01-28"
+      },
+      {
+        "complaint_id": "CMP_727",
+        "details": "World fast mention soldier.",
+        "timestamp": "2026-02-26"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_4938",
+    "name": "Alexander White",
+    "license_details": {
+      "license_id": "LNC_PK_0373",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-12-31"
+    },
+    "safety_score": 77,
+    "incident_history": [
+      {
+        "record_id": "SR_124",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-13"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_392",
+        "details": "Performance company her.",
+        "timestamp": "2026-02-21"
+      },
+      {
+        "complaint_id": "CMP_878",
+        "details": "Officer yard middle quite.",
+        "timestamp": "2026-02-18"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_5491",
+    "name": "Courtney Walker",
+    "license_details": {
+      "license_id": "LNC_PK_1247",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-08-16"
+    },
+    "safety_score": 81,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_079",
+        "details": "Receive south stay ability system.",
+        "timestamp": "2026-03-30"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_8910",
+    "name": "Luke Pope",
+    "license_details": {
+      "license_id": "LNC_PK_2452",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-04-09"
+    },
+    "safety_score": 65,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_579",
+        "details": "Better woman pick couple.",
+        "timestamp": "2026-03-29"
+      },
+      {
+        "complaint_id": "CMP_417",
+        "details": "How Mrs player wife.",
+        "timestamp": "2026-01-04"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_2494",
+    "name": "Randall Neal",
+    "license_details": {
+      "license_id": "LNC_PK_1835",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-09-16"
+    },
+    "safety_score": 81,
+    "incident_history": [
+      {
+        "record_id": "SR_428",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-12"
+      },
+      {
+        "record_id": "SR_295",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-21"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_8687",
+    "name": "Kimberly Woods",
+    "license_details": {
+      "license_id": "LNC_PK_9776",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-10-12"
+    },
+    "safety_score": 93,
+    "incident_history": [
+      {
+        "record_id": "SR_288",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-23"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_213",
+        "details": "Perhaps score production wear learn rise between.",
+        "timestamp": "2026-03-06"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_6737",
+    "name": "David Jones",
+    "license_details": {
+      "license_id": "LNC_PK_0975",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-06-23"
+    },
+    "safety_score": 94,
+    "incident_history": [],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_5592",
+    "name": "Heather Perez",
+    "license_details": {
+      "license_id": "LNC_PK_4230",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-03-01"
+    },
+    "safety_score": 93,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_305",
+        "details": "Personal collection quickly safe offer serve impact.",
+        "timestamp": "2026-01-22"
+      },
+      {
+        "complaint_id": "CMP_324",
+        "details": "Maintain price body step thing foot president.",
+        "timestamp": "2026-02-27"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_9749",
+    "name": "Beth Hunter",
+    "license_details": {
+      "license_id": "LNC_PK_4021",
+      "class": "Heavy Commercial",
+      "expiration_date": "2027-12-29"
+    },
+    "safety_score": 100,
+    "incident_history": [
+      {
+        "record_id": "SR_854",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-22"
+      },
+      {
+        "record_id": "SR_404",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-20"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_5127",
+    "name": "Troy Bruce",
+    "license_details": {
+      "license_id": "LNC_PK_3741",
+      "class": "Heavy Commercial",
+      "expiration_date": "2027-04-14"
+    },
+    "safety_score": 98,
+    "incident_history": [
+      {
+        "record_id": "SR_742",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-12"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_329",
+        "details": "To property suggest value expect.",
+        "timestamp": "2026-02-05"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_2483",
+    "name": "Michael Hood",
+    "license_details": {
+      "license_id": "LNC_PK_4629",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-08-23"
+    },
+    "safety_score": 78,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_369",
+        "details": "Environment candidate south only media subject.",
+        "timestamp": "2026-02-07"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_8203",
+    "name": "Kimberly Stephens",
+    "license_details": {
+      "license_id": "LNC_PK_1472",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-03-17"
+    },
+    "safety_score": 82,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_260",
+        "details": "Its you radio hour hundred Republican capital.",
+        "timestamp": "2026-02-26"
+      },
+      {
+        "complaint_id": "CMP_061",
+        "details": "Four would school agency environmental.",
+        "timestamp": "2026-02-06"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_5215",
+    "name": "Emily Mcgee",
+    "license_details": {
+      "license_id": "LNC_PK_9342",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-05-13"
+    },
+    "safety_score": 96,
+    "incident_history": [
+      {
+        "record_id": "SR_395",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-15"
+      },
+      {
+        "record_id": "SR_022",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-06"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_525",
+        "details": "Heavy president like onto sport music movie.",
+        "timestamp": "2026-01-14"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_6850",
+    "name": "Daniel Martin",
+    "license_details": {
+      "license_id": "LNC_PK_1097",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-06-03"
+    },
+    "safety_score": 92,
+    "incident_history": [
+      {
+        "record_id": "SR_839",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-20"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_506",
+        "details": "Effort detail others natural role.",
+        "timestamp": "2026-02-10"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_6316",
+    "name": "Sara Gill",
+    "license_details": {
+      "license_id": "LNC_PK_8181",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-12-07"
+    },
+    "safety_score": 83,
+    "incident_history": [
+      {
+        "record_id": "SR_547",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-29"
+      },
+      {
+        "record_id": "SR_379",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-08"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_025",
+        "details": "Dog then husband program design population attorney participant.",
+        "timestamp": "2026-01-31"
+      },
+      {
+        "complaint_id": "CMP_663",
+        "details": "Office cause true.",
+        "timestamp": "2026-01-18"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_6813",
+    "name": "Dr. Melinda Henderson",
+    "license_details": {
+      "license_id": "LNC_PK_2685",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-09-27"
+    },
+    "safety_score": 61,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_375",
+        "details": "Friend anything drop many.",
+        "timestamp": "2026-03-16"
+      },
+      {
+        "complaint_id": "CMP_339",
+        "details": "Case situation nearly such wide always.",
+        "timestamp": "2026-01-29"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_6510",
+    "name": "Alexis Stewart",
+    "license_details": {
+      "license_id": "LNC_PK_0855",
+      "class": "Heavy Commercial",
+      "expiration_date": "2027-05-26"
+    },
+    "safety_score": 91,
+    "incident_history": [
+      {
+        "record_id": "SR_086",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-10"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_455",
+        "details": "He half save front.",
+        "timestamp": "2026-02-19"
+      },
+      {
+        "complaint_id": "CMP_518",
+        "details": "Its team star.",
+        "timestamp": "2026-02-26"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_7795",
+    "name": "William Garcia",
+    "license_details": {
+      "license_id": "LNC_PK_1313",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-03-11"
+    },
+    "safety_score": 88,
+    "incident_history": [],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_5465",
+    "name": "David Bailey",
+    "license_details": {
+      "license_id": "LNC_PK_3033",
+      "class": "Heavy Commercial",
+      "expiration_date": "2027-10-21"
+    },
+    "safety_score": 73,
+    "incident_history": [
+      {
+        "record_id": "SR_747",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-08"
+      },
+      {
+        "record_id": "SR_349",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-27"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_4121",
+    "name": "Pam Wilkins",
+    "license_details": {
+      "license_id": "LNC_PK_6452",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-08-21"
+    },
+    "safety_score": 70,
+    "incident_history": [
+      {
+        "record_id": "SR_984",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-21"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_6141",
+    "name": "Caitlin Arias",
+    "license_details": {
+      "license_id": "LNC_PK_8727",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-06-11"
+    },
+    "safety_score": 76,
+    "incident_history": [
+      {
+        "record_id": "SR_186",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-22"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_1271",
+    "name": "Jose Vega",
+    "license_details": {
+      "license_id": "LNC_PK_8350",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-05-29"
+    },
+    "safety_score": 68,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_567",
+        "details": "Reason example future sea apply agent nothing then.",
+        "timestamp": "2026-01-14"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_8748",
+    "name": "Thomas Carroll",
+    "license_details": {
+      "license_id": "LNC_PK_8213",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-10-18"
+    },
+    "safety_score": 77,
+    "incident_history": [
+      {
+        "record_id": "SR_054",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-03"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_852",
+        "details": "Fear same my pattern maybe prepare like.",
+        "timestamp": "2026-01-12"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_1280",
+    "name": "Lindsey Watkins",
+    "license_details": {
+      "license_id": "LNC_PK_9896",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-09-26"
+    },
+    "safety_score": 78,
+    "incident_history": [
+      {
+        "record_id": "SR_743",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-23"
+      },
+      {
+        "record_id": "SR_651",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-10"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_9387",
+    "name": "Melissa Johnston",
+    "license_details": {
+      "license_id": "LNC_PK_7437",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-01-07"
+    },
+    "safety_score": 87,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_220",
+        "details": "Able shake computer wide school let onto.",
+        "timestamp": "2026-03-26"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_6942",
+    "name": "Julie Thompson",
+    "license_details": {
+      "license_id": "LNC_PK_9617",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-01-09"
+    },
+    "safety_score": 86,
+    "incident_history": [
+      {
+        "record_id": "SR_505",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-12"
+      },
+      {
+        "record_id": "SR_477",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-02"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_127",
+        "details": "Population member open relate.",
+        "timestamp": "2026-02-16"
+      },
+      {
+        "complaint_id": "CMP_756",
+        "details": "Admit she cold toward since nation arrive.",
+        "timestamp": "2026-01-10"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_5724",
+    "name": "Rodney Jones",
+    "license_details": {
+      "license_id": "LNC_PK_2079",
+      "class": "Heavy Commercial",
+      "expiration_date": "2031-01-21"
+    },
+    "safety_score": 93,
+    "incident_history": [
+      {
+        "record_id": "SR_199",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-04-01"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_237",
+        "details": "Speak growth the management question baby.",
+        "timestamp": "2026-03-04"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_8657",
+    "name": "William Nichols",
+    "license_details": {
+      "license_id": "LNC_PK_5023",
+      "class": "Heavy Commercial",
+      "expiration_date": "2031-01-26"
+    },
+    "safety_score": 99,
+    "incident_history": [
+      {
+        "record_id": "SR_247",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-09"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_608",
+        "details": "College including practice wear last camera begin.",
+        "timestamp": "2026-01-04"
+      },
+      {
+        "complaint_id": "CMP_812",
+        "details": "Trade effort woman dark including music hear gun.",
+        "timestamp": "2026-01-23"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_2412",
+    "name": "Ryan Campbell",
+    "license_details": {
+      "license_id": "LNC_PK_7723",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-03-26"
+    },
+    "safety_score": 81,
+    "incident_history": [],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_4172",
+    "name": "Carlos Flynn",
+    "license_details": {
+      "license_id": "LNC_PK_1962",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-06-08"
+    },
+    "safety_score": 80,
+    "incident_history": [
+      {
+        "record_id": "SR_926",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-20"
+      },
+      {
+        "record_id": "SR_548",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-23"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_8093",
+    "name": "Justin Martin",
+    "license_details": {
+      "license_id": "LNC_PK_2091",
+      "class": "Heavy Commercial",
+      "expiration_date": "2027-09-04"
+    },
+    "safety_score": 93,
+    "incident_history": [
+      {
+        "record_id": "SR_843",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-04"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_348",
+        "details": "Day range be civil party success what staff.",
+        "timestamp": "2026-03-17"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_9079",
+    "name": "John Wilkins",
+    "license_details": {
+      "license_id": "LNC_PK_0190",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-01-10"
+    },
+    "safety_score": 69,
+    "incident_history": [],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_5094",
+    "name": "Sara Higgins",
+    "license_details": {
+      "license_id": "LNC_PK_8949",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-04-07"
+    },
+    "safety_score": 92,
+    "incident_history": [],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_860",
+        "details": "Politics affect ready weight.",
+        "timestamp": "2026-02-06"
+      },
+      {
+        "complaint_id": "CMP_272",
+        "details": "Notice collection artist save when.",
+        "timestamp": "2026-02-04"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_3311",
+    "name": "Jody Johnson",
+    "license_details": {
+      "license_id": "LNC_PK_1371",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-08-29"
+    },
+    "safety_score": 84,
+    "incident_history": [
+      {
+        "record_id": "SR_916",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-10"
+      },
+      {
+        "record_id": "SR_544",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-08"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_1554",
+    "name": "Trevor Roberts",
+    "license_details": {
+      "license_id": "LNC_PK_8618",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-07-06"
+    },
+    "safety_score": 98,
+    "incident_history": [],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_1756",
+    "name": "Katherine Rose",
+    "license_details": {
+      "license_id": "LNC_PK_3293",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-01-13"
+    },
+    "safety_score": 99,
+    "incident_history": [
+      {
+        "record_id": "SR_273",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-17"
+      },
+      {
+        "record_id": "SR_842",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-17"
+      }
+    ],
+    "customer_complaints": []
+  },
+  {
+    "_id": "DRV_5414",
+    "name": "Heather Johnson",
+    "license_details": {
+      "license_id": "LNC_PK_2531",
+      "class": "Heavy Commercial",
+      "expiration_date": "2030-07-26"
+    },
+    "safety_score": 66,
+    "incident_history": [
+      {
+        "record_id": "SR_953",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-26"
+      },
+      {
+        "record_id": "SR_603",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-31"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_545",
+        "details": "Task magazine room red smile.",
+        "timestamp": "2026-03-24"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_9941",
+    "name": "Jacob Dunn",
+    "license_details": {
+      "license_id": "LNC_PK_8256",
+      "class": "Heavy Commercial",
+      "expiration_date": "2029-08-23"
+    },
+    "safety_score": 63,
+    "incident_history": [
+      {
+        "record_id": "SR_413",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-23"
+      },
+      {
+        "record_id": "SR_361",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-01-24"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_661",
+        "details": "Boy near factor visit effort protect.",
+        "timestamp": "2026-03-10"
+      },
+      {
+        "complaint_id": "CMP_314",
+        "details": "Glass town song sea black recognize beat perform.",
+        "timestamp": "2026-02-20"
+      }
+    ]
+  },
+  {
+    "_id": "DRV_2740",
+    "name": "Adam Oneill",
+    "license_details": {
+      "license_id": "LNC_PK_0499",
+      "class": "Heavy Commercial",
+      "expiration_date": "2028-03-09"
+    },
+    "safety_score": 86,
+    "incident_history": [
+      {
+        "record_id": "SR_179",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-03-14"
+      },
+      {
+        "record_id": "SR_909",
+        "event": "Minor Scrape",
+        "score_impact": -2,
+        "date": "2026-02-25"
+      }
+    ],
+    "customer_complaints": [
+      {
+        "complaint_id": "CMP_825",
+        "details": "Show some toward identify style maybe practice television.",
+        "timestamp": "2026-01-15"
+      }
+    ]
+  }
+]

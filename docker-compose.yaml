@@ -1,0 +1,39 @@
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: nexus-mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+    volumes:
+      - nexus_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  seeder:
+    image: mongo:latest
+    container_name: nexus-seeder
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      # Map your local "NexusData_Output" folder to the container's /import
+      - ./NexusData_Output:/import/:ro 
+    command: >
+      bash -c "
+      for file in /import/*.json; do
+        collection=$$(basename $$file .json)
+        echo 'Importing $$collection...'
+        mongoimport --host mongodb --username admin --password password \
+        --authenticationDatabase admin --db NexusLogisticsDB \
+        --collection $$collection --file $$file --jsonArray
+      done
+      "
+
+volumes:
+  nexus_data:
