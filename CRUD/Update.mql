@@ -1,0 +1,1 @@
+docker exec -it nexus-mongodb mongosh -u admin -p password --authenticationDatabase admin --eval "db.getSiblingDB('NexusLogisticsDB').driver_performance.updateOne({ _id: 'DRV_6230' }, { \$set: { 'safety_score': 92 } })"
