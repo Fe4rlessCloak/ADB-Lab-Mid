@@ -1,40 +1,152 @@
 [
   {
-    "_id": "VND_sqB_81",
-    "vendor_name": "Johnson-Baker",
+    "_id": "VND_mjn_22",
+    "vendor_name": "Kennedy-Moran",
+    "category": "Electronics",
+    "contact_details": {
+      "primary_email": "rogerjackson@merritt.net",
+      "phone": "280.422.4944x462",
+      "address": "210 Scott Trail Apt. 586\nMartinmouth, MI 86273"
+    },
+    "performance_rating": 4.6,
+    "active_contracts": [
+      "CN-2026-52"
+    ]
+  },
+  {
+    "_id": "VND_oBV_68",
+    "vendor_name": "Alvarez-Reese",
+    "category": "Auto Parts",
+    "contact_details": {
+      "primary_email": "jessica94@holt.biz",
+      "phone": "(215)910-8222x817",
+      "address": "USS Roberts\nFPO AA 07044"
+    },
+    "performance_rating": 4.3,
+    "active_contracts": [
+      "CN-2026-12"
+    ]
+  },
+  {
+    "_id": "VND_pmN_42",
+    "vendor_name": "White Group",
+    "category": "Electronics",
+    "contact_details": {
+      "primary_email": "georgerenee@mann.biz",
+      "phone": "+1-202-491-9810",
+      "address": "2973 Samantha Canyon\nPhillipburgh, MA 93239"
+    },
+    "performance_rating": 3.9,
+    "active_contracts": [
+      "CN-2026-76"
+    ]
+  },
+  {
+    "_id": "VND_UnD_42",
+    "vendor_name": "Barry, Greer and Merritt",
     "category": "Medical",
     "contact_details": {
-      "primary_email": "guzmantyrone@erickson.info",
-      "phone": "+1-836-556-6015x683",
-      "address": "9343 Valdez Path Suite 350\nNew Edwardfort, SD 75984"
+      "primary_email": "brian03@barron.info",
+      "phone": "+1-990-680-3968",
+      "address": "664 Stacy Street\nBoonefort, MN 80297"
+    },
+    "performance_rating": 4.8,
+    "active_contracts": [
+      "CN-2026-00"
+    ]
+  },
+  {
+    "_id": "VND_HYI_56",
+    "vendor_name": "Lee, Escobar and Beltran",
+    "category": "Electronics",
+    "contact_details": {
+      "primary_email": "harringtonjessica@lam.biz",
+      "phone": "385-671-5506x095",
+      "address": "38663 Melissa Motorway\nNew Kelly, PW 45410"
+    },
+    "performance_rating": 4.3,
+    "active_contracts": [
+      "CN-2026-28"
+    ]
+  },
+  {
+    "_id": "VND_KEH_63",
+    "vendor_name": "Mercer Ltd",
+    "category": "Electronics",
+    "contact_details": {
+      "primary_email": "mwilliams@garza.com",
+      "phone": "+1-369-780-9154x0181",
+      "address": "4637 Terrence Mall Suite 088\nRyanstad, MT 56832"
+    },
+    "performance_rating": 4.5,
+    "active_contracts": [
+      "CN-2026-08"
+    ]
+  },
+  {
+    "_id": "VND_HmA_31",
+    "vendor_name": "Kirby-Gallagher",
+    "category": "Medical",
+    "contact_details": {
+      "primary_email": "blewis@barrett.com",
+      "phone": "8678142544",
+      "address": "295 Mclean Parkway\nNorth Michaelmouth, AL 73722"
     },
     "performance_rating": 4.1,
     "active_contracts": [
-      "CN-2026-13"
+      "CN-2026-55"
     ]
   },
   {
-    "_id": "VND_pNC_49",
-    "vendor_name": "Green LLC",
-    "category": "Auto Parts",
-    "contact_details": {
-      "primary_email": "sarah95@clay.com",
-      "phone": "736.680.3772",
-      "address": "593 Tiffany Canyon\nChanland, NM 95157"
-    },
-    "performance_rating": 4.7,
-    "active_contracts": [
-      "CN-2026-73"
-    ]
-  },
-  {
-    "_id": "VND_xKf_18",
-    "vendor_name": "Gay Ltd",
+    "_id": "VND_AKN_16",
+    "vendor_name": "Meadows-Lester",
     "category": "Medical",
     "contact_details": {
-      "primary_email": "erinmartinez@black.com",
-      "phone": "001-991-407-8223x9127",
-      "address": "4414 Saunders Dam\nSanchezhaven, OH 92202"
+      "primary_email": "kevinwhite@lopez.com",
+      "phone": "(890)711-4910x93315",
+      "address": "633 Abbott Junction Apt. 702\nNew Angelamouth, SC 81210"
+    },
+    "performance_rating": 4.1,
+    "active_contracts": [
+      "CN-2026-81"
+    ]
+  },
+  {
+    "_id": "VND_BmY_74",
+    "vendor_name": "Bennett and Sons",
+    "category": "Medical",
+    "contact_details": {
+      "primary_email": "yjones@greene.com",
+      "phone": "(637)633-8695",
+      "address": "Unit 4465 Box 5714\nDPO AE 40600"
+    },
+    "performance_rating": 3.8,
+    "active_contracts": [
+      "CN-2026-45"
+    ]
+  },
+  {
+    "_id": "VND_yBz_52",
+    "vendor_name": "Allen Inc",
+    "category": "Textiles",
+    "contact_details": {
+      "primary_email": "brent78@singh-taylor.com",
+      "phone": "001-657-201-9980x3298",
+      "address": "8438 Brent Wells Apt. 008\nAnaville, WY 72617"
+    },
+    "performance_rating": 4.4,
+    "active_contracts": [
+      "CN-2026-68"
+    ]
+  },
+  {
+    "_id": "VND_iiQ_03",
+    "vendor_name": "Armstrong Inc",
+    "category": "Textiles",
+    "contact_details": {
+      "primary_email": "jrush@weaver.com",
+      "phone": "904.236.1676x8282",
+      "address": "8049 Adam Mission\nNew Jamesville, TX 21290"
     },
     "performance_rating": 3.8,
     "active_contracts": [
@@ -42,241 +154,129 @@
     ]
   },
   {
-    "_id": "VND_Gcc_68",
-    "vendor_name": "Thompson-Waters",
-    "category": "Auto Parts",
+    "_id": "VND_KEW_26",
+    "vendor_name": "Salinas, Walker and Hines",
+    "category": "Medical",
     "contact_details": {
-      "primary_email": "ujackson@sanchez.org",
-      "phone": "(280)850-1991x5227",
-      "address": "27813 Jim Drive Apt. 524\nNicholsonhaven, DE 22255"
+      "primary_email": "mtaylor@jones-mcguire.info",
+      "phone": "810-501-2440x02840",
+      "address": "869 Anthony Underpass Suite 743\nPort Brittanyview, NC 83567"
     },
-    "performance_rating": 4.0,
+    "performance_rating": 4.6,
     "active_contracts": [
-      "CN-2026-20"
+      "CN-2026-24"
     ]
   },
   {
-    "_id": "VND_spt_85",
-    "vendor_name": "Stone, Rodriguez and Lopez",
+    "_id": "VND_mnF_66",
+    "vendor_name": "Brown-Mills",
     "category": "Textiles",
     "contact_details": {
-      "primary_email": "elizabeth45@jones.biz",
-      "phone": "961-914-5228",
-      "address": "2781 Jason Harbor\nNew Joelberg, AK 51377"
+      "primary_email": "ymclaughlin@gutierrez.com",
+      "phone": "+1-337-404-7424x297",
+      "address": "195 Kristine Corner Suite 329\nJohnland, ID 93760"
+    },
+    "performance_rating": 4.4,
+    "active_contracts": [
+      "CN-2026-73"
+    ]
+  },
+  {
+    "_id": "VND_LKj_74",
+    "vendor_name": "Thompson, Foley and Henry",
+    "category": "Auto Parts",
+    "contact_details": {
+      "primary_email": "zsmith@wong.com",
+      "phone": "+1-390-665-7383x3908",
+      "address": "566 Rodriguez Gardens\nPort Rickyside, MN 09357"
     },
     "performance_rating": 4.1,
     "active_contracts": [
-      "CN-2026-16"
+      "CN-2026-52"
     ]
   },
   {
-    "_id": "VND_RLc_03",
-    "vendor_name": "Phillips and Sons",
-    "category": "Textiles",
+    "_id": "VND_fOM_56",
+    "vendor_name": "Williams-Gordon",
+    "category": "Auto Parts",
     "contact_details": {
-      "primary_email": "wwade@nolan.com",
-      "phone": "+1-790-648-5174x1017",
-      "address": "614 Moreno Lake\nJohnsonport, PR 15532"
+      "primary_email": "christopher10@good.com",
+      "phone": "(780)234-6623x13397",
+      "address": "7557 Patrick Brook\nJoneston, MA 49307"
+    },
+    "performance_rating": 4.7,
+    "active_contracts": [
+      "CN-2026-93"
+    ]
+  },
+  {
+    "_id": "VND_dPl_49",
+    "vendor_name": "Scott-Anderson",
+    "category": "Auto Parts",
+    "contact_details": {
+      "primary_email": "anthony57@wheeler-schmidt.com",
+      "phone": "608.775.8954x5446",
+      "address": "PSC 8147, Box 0118\nAPO AP 38860"
     },
     "performance_rating": 4.9,
-    "active_contracts": [
-      "CN-2026-57"
-    ]
-  },
-  {
-    "_id": "VND_QJq_42",
-    "vendor_name": "Farrell, Eaton and Lyons",
-    "category": "Electronics",
-    "contact_details": {
-      "primary_email": "balvarado@sosa-morris.com",
-      "phone": "4678718431",
-      "address": "PSC 4075, Box 3307\nAPO AE 86061"
-    },
-    "performance_rating": 3.8,
-    "active_contracts": [
-      "CN-2026-75"
-    ]
-  },
-  {
-    "_id": "VND_dLO_57",
-    "vendor_name": "Reese Group",
-    "category": "Textiles",
-    "contact_details": {
-      "primary_email": "corey99@johnson.com",
-      "phone": "5218005594",
-      "address": "59989 Perez Roads\nPort Jared, WY 44588"
-    },
-    "performance_rating": 4.9,
-    "active_contracts": [
-      "CN-2026-49"
-    ]
-  },
-  {
-    "_id": "VND_yIT_49",
-    "vendor_name": "Wells, Costa and Figueroa",
-    "category": "Medical",
-    "contact_details": {
-      "primary_email": "kennethsuarez@alvarez.org",
-      "phone": "7587148733",
-      "address": "564 Jessica Point Suite 974\nPort Christopher, AL 02845"
-    },
-    "performance_rating": 3.9,
     "active_contracts": [
       "CN-2026-34"
     ]
   },
   {
-    "_id": "VND_GCP_93",
-    "vendor_name": "Smith Inc",
-    "category": "Textiles",
-    "contact_details": {
-      "primary_email": "marcthomas@casey-simpson.info",
-      "phone": "(907)764-3764x432",
-      "address": "22529 Banks Summit Apt. 808\nStuartville, WV 00842"
-    },
-    "performance_rating": 4.4,
-    "active_contracts": [
-      "CN-2026-19"
-    ]
-  },
-  {
-    "_id": "VND_uiu_17",
-    "vendor_name": "Le-Greene",
+    "_id": "VND_Wwo_16",
+    "vendor_name": "Liu-Lane",
     "category": "Medical",
     "contact_details": {
-      "primary_email": "mary27@gomez.info",
-      "phone": "615.417.8112x4197",
-      "address": "0062 Bass Extensions\nCaldwellhaven, DC 30872"
+      "primary_email": "lwallace@nelson.net",
+      "phone": "599.309.1225x28915",
+      "address": "76743 Edward Lock\nWendyfurt, AS 53944"
     },
-    "performance_rating": 3.7,
+    "performance_rating": 3.5,
     "active_contracts": [
-      "CN-2026-59"
+      "CN-2026-92"
     ]
   },
   {
-    "_id": "VND_UML_51",
-    "vendor_name": "Allen, Petersen and David",
+    "_id": "VND_DmM_88",
+    "vendor_name": "Johnson-Hernandez",
     "category": "Medical",
     "contact_details": {
-      "primary_email": "ymartin@krause.info",
-      "phone": "3504549088",
-      "address": "24820 Hinton Wall\nKellerton, AR 34322"
-    },
-    "performance_rating": 4.9,
-    "active_contracts": [
-      "CN-2026-89"
-    ]
-  },
-  {
-    "_id": "VND_jNu_32",
-    "vendor_name": "Kelly-Nguyen",
-    "category": "Electronics",
-    "contact_details": {
-      "primary_email": "stanleytorres@gibbs-frank.com",
-      "phone": "823-892-9343x2113",
-      "address": "873 Calderon Field Apt. 264\nJeffreychester, UT 73570"
-    },
-    "performance_rating": 4.4,
-    "active_contracts": [
-      "CN-2026-10"
-    ]
-  },
-  {
-    "_id": "VND_wkq_04",
-    "vendor_name": "Smith, Myers and Bridges",
-    "category": "Auto Parts",
-    "contact_details": {
-      "primary_email": "crodriguez@bonilla-roberts.com",
-      "phone": "243-303-9196x496",
-      "address": "8676 Morrow Via\nPort Laurenbury, MS 28609"
-    },
-    "performance_rating": 4.7,
-    "active_contracts": [
-      "CN-2026-68"
-    ]
-  },
-  {
-    "_id": "VND_SAR_47",
-    "vendor_name": "Hamilton-Mosley",
-    "category": "Electronics",
-    "contact_details": {
-      "primary_email": "bensonlori@reese.com",
-      "phone": "+1-201-685-6869x563",
-      "address": "50548 Griffin Gateway Apt. 189\nNew Vickie, NY 61864"
+      "primary_email": "amy71@lewis.com",
+      "phone": "492.765.4325",
+      "address": "Unit 7612 Box 7097\nDPO AP 06253"
     },
     "performance_rating": 4.2,
     "active_contracts": [
-      "CN-2026-62"
+      "CN-2026-46"
     ]
   },
   {
-    "_id": "VND_ZIQ_69",
-    "vendor_name": "Gallagher, Harris and Bradley",
+    "_id": "VND_vmX_36",
+    "vendor_name": "Patel-Mcneil",
     "category": "Textiles",
     "contact_details": {
-      "primary_email": "estradanathaniel@wilson-farley.biz",
-      "phone": "001-917-879-2599x10602",
-      "address": "84981 Miguel Stream Suite 587\nJoyceland, OK 07103"
-    },
-    "performance_rating": 3.9,
-    "active_contracts": [
-      "CN-2026-95"
-    ]
-  },
-  {
-    "_id": "VND_IHR_06",
-    "vendor_name": "Gonzalez, Hoffman and Combs",
-    "category": "Electronics",
-    "contact_details": {
-      "primary_email": "xchen@matthews-haynes.biz",
-      "phone": "001-533-324-7146x26817",
-      "address": "122 William Forge\nAllisonfurt, GA 47533"
-    },
-    "performance_rating": 4.1,
-    "active_contracts": [
-      "CN-2026-39"
-    ]
-  },
-  {
-    "_id": "VND_ztw_92",
-    "vendor_name": "Flynn Ltd",
-    "category": "Auto Parts",
-    "contact_details": {
-      "primary_email": "josephalvarado@hill-wilson.org",
-      "phone": "964-880-5350",
-      "address": "3665 Kimberly Circles\nNew Paul, GA 64885"
-    },
-    "performance_rating": 4.8,
-    "active_contracts": [
-      "CN-2026-94"
-    ]
-  },
-  {
-    "_id": "VND_vTv_73",
-    "vendor_name": "Mayer-Yang",
-    "category": "Medical",
-    "contact_details": {
-      "primary_email": "jimmycampos@elliott-pierce.info",
-      "phone": "001-393-539-5267x15849",
-      "address": "02408 Adrian Springs\nDanielleport, OR 35773"
+      "primary_email": "johnpage@pierce-turner.com",
+      "phone": "+1-382-619-1656x58753",
+      "address": "1294 Blake Drive Apt. 447\nPort Christopher, VA 16689"
     },
     "performance_rating": 3.8,
     "active_contracts": [
-      "CN-2026-80"
+      "CN-2026-15"
     ]
   },
   {
-    "_id": "VND_XHS_49",
-    "vendor_name": "Tate-Barron",
-    "category": "Auto Parts",
+    "_id": "VND_jNK_00",
+    "vendor_name": "Taylor-Marshall",
+    "category": "Medical",
     "contact_details": {
-      "primary_email": "odonnelllarry@benton-owens.org",
-      "phone": "4868725948",
-      "address": "499 Curtis Glen Apt. 460\nTaylorburgh, NY 62038"
+      "primary_email": "scott97@boyer.info",
+      "phone": "643.537.2833",
+      "address": "692 Theresa Ports\nLake Patrick, TN 25660"
     },
-    "performance_rating": 4.0,
+    "performance_rating": 4.6,
     "active_contracts": [
-      "CN-2026-00"
+      "CN-2026-02"
     ]
   }
 ]

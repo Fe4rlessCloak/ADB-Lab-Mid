@@ -143,7 +143,7 @@ def gen_phase_3():
     # 9) Shipment-Ops
     shipments = []
     for i in range(NUM_SHIPMENTS):
-        s_id = f"SHIP_{2026}_{random.randint(1000, 9999)}"
+        s_id = f"NEX-SHIP-{i:06d}"
         pools["SHIP"].append(s_id)
         shipments.append({
             "_id": s_id,
@@ -178,7 +178,7 @@ def gen_phase_4():
     maintenance = []
     for i in range(NUM_MAINTENANCE):
         maintenance.append({
-            "_id": f"MAINT_2026_{random.randint(100, 999)}",
+            "_id": f"MAINT_2026_{i:05d}",
             "vehicle_id": random.choice(pools["VEH"]),
             "service_type": random.choice(["Scheduled", "Emergency"]),
             "repair_details": {"description": fake.sentence(), "parts_replaced": [fake.word(), fake.word()], "mechanic_id": fake.bothify("MECH_###")},

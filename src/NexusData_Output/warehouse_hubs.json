@@ -1,162 +1,42 @@
 [
   {
-    "_id": "WH_Sch_51",
-    "province_id": "PROV_SINDH",
-    "address": "81133 Hansen Turnpike\nSouth Juantown, MP 33727",
-    "total_capacity_sqft": 58952,
-    "security_protocols": {
-      "access_level": "Level 4 - Restricted",
-      "biometric_enabled": true,
-      "last_inspection": "2026-03-01"
-    },
-    "bin_locations": [
-      {
-        "bin_id": "BIN_A1_02",
-        "aisle_number": "A1",
-        "type": "Dry Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A8_71",
-        "aisle_number": "A2",
-        "type": "Cold Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A3_37",
-        "aisle_number": "A1",
-        "type": "Dry Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A2_04",
-        "aisle_number": "A1",
-        "type": "Dry Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A8_96",
-        "aisle_number": "A2",
-        "type": "Cold Storage",
-        "occupied": false
-      }
-    ],
-    "loadi  ng_docks": [
-      {
-        "dock_number": 1,
-        "is_occupied": false,
-        "current_vehicle": null
-      },
-      {
-        "dock_number": 2,
-        "is_occupied": true,
-        "current_vehicle": "VEH_kqX_96"
-      },
-      {
-        "dock_number": 3,
-        "is_occupied": false,
-        "current_vehicle": null
-      }
-    ]
-  },
-  {
-    "_id": "WH_tyC_55",
-    "province_id": "PROV_GB",
-    "address": "778 Jennifer Courts Apt. 664\nLake Dawnstad, NJ 28702",
-    "total_capacity_sqft": 47426,
-    "security_protocols": {
-      "access_level": "Level 4 - Restricted",
-      "biometric_enabled": true,
-      "last_inspection": "2026-04-14"
-    },
-    "bin_locations": [
-      {
-        "bin_id": "BIN_A6_89",
-        "aisle_number": "A4",
-        "type": "Dry Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A8_67",
-        "aisle_number": "A1",
-        "type": "Cold Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A7_67",
-        "aisle_number": "A5",
-        "type": "Dry Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A8_39",
-        "aisle_number": "A2",
-        "type": "Cold Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A5_54",
-        "aisle_number": "A1",
-        "type": "Dry Storage",
-        "occupied": true
-      }
-    ],
-    "loadi  ng_docks": [
-      {
-        "dock_number": 1,
-        "is_occupied": false,
-        "current_vehicle": null
-      },
-      {
-        "dock_number": 2,
-        "is_occupied": false,
-        "current_vehicle": null
-      },
-      {
-        "dock_number": 3,
-        "is_occupied": true,
-        "current_vehicle": "VEH_fsd_16"
-      }
-    ]
-  },
-  {
-    "_id": "WH_OWT_72",
+    "_id": "WH_fIj_97",
     "province_id": "PROV_BALOCHISTAN",
-    "address": "PSC 7714, Box 4182\nAPO AP 05333",
-    "total_capacity_sqft": 65615,
+    "address": "60723 Torres Haven\nSouth Paul, MA 30524",
+    "total_capacity_sqft": 48196,
     "security_protocols": {
       "access_level": "Level 4 - Restricted",
       "biometric_enabled": true,
-      "last_inspection": "2026-02-11"
+      "last_inspection": "2026-02-22"
     },
     "bin_locations": [
       {
-        "bin_id": "BIN_A2_36",
+        "bin_id": "BIN_A8_05",
+        "aisle_number": "A1",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A0_09",
+        "aisle_number": "A2",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A2_70",
         "aisle_number": "A3",
-        "type": "Dry Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A5_57",
-        "aisle_number": "A1",
-        "type": "Dry Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A5_29",
-        "aisle_number": "A1",
         "type": "Dry Storage",
         "occupied": false
       },
       {
-        "bin_id": "BIN_A1_13",
+        "bin_id": "BIN_A2_38",
         "aisle_number": "A5",
-        "type": "Dry Storage",
-        "occupied": true
+        "type": "Cold Storage",
+        "occupied": false
       },
       {
-        "bin_id": "BIN_A5_97",
-        "aisle_number": "A4",
+        "bin_id": "BIN_A1_59",
+        "aisle_number": "A2",
         "type": "Dry Storage",
         "occupied": false
       }
@@ -165,71 +45,11 @@
       {
         "dock_number": 1,
         "is_occupied": true,
-        "current_vehicle": null
+        "current_vehicle": "VEH_HoB_73"
       },
       {
         "dock_number": 2,
         "is_occupied": true,
-        "current_vehicle": "VEH_udd_41"
-      },
-      {
-        "dock_number": 3,
-        "is_occupied": true,
-        "current_vehicle": "VEH_DVT_97"
-      }
-    ]
-  },
-  {
-    "_id": "WH_sCI_91",
-    "province_id": "PROV_SINDH",
-    "address": "4830 Schmidt Station\nScottshire, RI 72241",
-    "total_capacity_sqft": 78692,
-    "security_protocols": {
-      "access_level": "Level 4 - Restricted",
-      "biometric_enabled": true,
-      "last_inspection": "2026-02-10"
-    },
-    "bin_locations": [
-      {
-        "bin_id": "BIN_A1_67",
-        "aisle_number": "A2",
-        "type": "Cold Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A8_81",
-        "aisle_number": "A2",
-        "type": "Dry Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A1_97",
-        "aisle_number": "A2",
-        "type": "Cold Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A8_20",
-        "aisle_number": "A4",
-        "type": "Cold Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A5_51",
-        "aisle_number": "A3",
-        "type": "Cold Storage",
-        "occupied": false
-      }
-    ],
-    "loadi  ng_docks": [
-      {
-        "dock_number": 1,
-        "is_occupied": true,
-        "current_vehicle": null
-      },
-      {
-        "dock_number": 2,
-        "is_occupied": false,
         "current_vehicle": null
       },
       {
@@ -240,102 +60,42 @@
     ]
   },
   {
-    "_id": "WH_bsA_67",
+    "_id": "WH_TzJ_81",
     "province_id": "PROV_GB",
-    "address": "9744 Susan Pine\nNorth Kristen, AL 40587",
-    "total_capacity_sqft": 90626,
+    "address": "89264 Carla Points Suite 044\nNew Albert, NE 60605",
+    "total_capacity_sqft": 86415,
     "security_protocols": {
       "access_level": "Level 4 - Restricted",
       "biometric_enabled": true,
-      "last_inspection": "2026-02-21"
+      "last_inspection": "2026-01-10"
     },
     "bin_locations": [
       {
-        "bin_id": "BIN_A7_32",
-        "aisle_number": "A4",
-        "type": "Cold Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A7_17",
-        "aisle_number": "A4",
-        "type": "Dry Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A9_88",
-        "aisle_number": "A1",
-        "type": "Dry Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A8_50",
-        "aisle_number": "A1",
-        "type": "Dry Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A8_13",
-        "aisle_number": "A4",
-        "type": "Cold Storage",
-        "occupied": false
-      }
-    ],
-    "loadi  ng_docks": [
-      {
-        "dock_number": 1,
-        "is_occupied": false,
-        "current_vehicle": "VEH_glK_11"
-      },
-      {
-        "dock_number": 2,
-        "is_occupied": false,
-        "current_vehicle": "VEH_PjE_38"
-      },
-      {
-        "dock_number": 3,
-        "is_occupied": true,
-        "current_vehicle": "VEH_UXW_55"
-      }
-    ]
-  },
-  {
-    "_id": "WH_HIu_18",
-    "province_id": "PROV_SINDH",
-    "address": "3176 Harrington Harbor\nMoodybury, ID 22562",
-    "total_capacity_sqft": 46101,
-    "security_protocols": {
-      "access_level": "Level 4 - Restricted",
-      "biometric_enabled": true,
-      "last_inspection": "2026-04-11"
-    },
-    "bin_locations": [
-      {
-        "bin_id": "BIN_A0_08",
+        "bin_id": "BIN_A9_15",
         "aisle_number": "A5",
-        "type": "Cold Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A9_37",
-        "aisle_number": "A4",
-        "type": "Cold Storage",
+        "type": "Dry Storage",
         "occupied": true
       },
       {
-        "bin_id": "BIN_A3_57",
+        "bin_id": "BIN_A1_76",
+        "aisle_number": "A1",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A3_69",
         "aisle_number": "A4",
         "type": "Cold Storage",
         "occupied": false
       },
       {
-        "bin_id": "BIN_A0_90",
-        "aisle_number": "A2",
-        "type": "Cold Storage",
-        "occupied": false
+        "bin_id": "BIN_A4_92",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
+        "occupied": true
       },
       {
-        "bin_id": "BIN_A6_58",
+        "bin_id": "BIN_A4_32",
         "aisle_number": "A2",
         "type": "Dry Storage",
         "occupied": true
@@ -344,8 +104,8 @@
     "loadi  ng_docks": [
       {
         "dock_number": 1,
-        "is_occupied": false,
-        "current_vehicle": "VEH_XeG_03"
+        "is_occupied": true,
+        "current_vehicle": "VEH_FTL_16"
       },
       {
         "dock_number": 2,
@@ -354,49 +114,109 @@
       },
       {
         "dock_number": 3,
-        "is_occupied": true,
-        "current_vehicle": "VEH_pnY_40"
+        "is_occupied": false,
+        "current_vehicle": "VEH_zPv_54"
       }
     ]
   },
   {
-    "_id": "WH_ztC_19",
+    "_id": "WH_iuT_30",
     "province_id": "PROV_PUNJAB",
-    "address": "0638 Angela Hill\nNorth Theresa, NJ 18621",
-    "total_capacity_sqft": 63427,
+    "address": "8668 Karen Key Suite 065\nWest Gailville, GU 10507",
+    "total_capacity_sqft": 69085,
     "security_protocols": {
       "access_level": "Level 4 - Restricted",
       "biometric_enabled": true,
-      "last_inspection": "2026-02-20"
+      "last_inspection": "2026-03-12"
     },
     "bin_locations": [
       {
-        "bin_id": "BIN_A2_98",
-        "aisle_number": "A3",
-        "type": "Dry Storage",
-        "occupied": true
+        "bin_id": "BIN_A9_91",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": false
       },
       {
-        "bin_id": "BIN_A0_01",
+        "bin_id": "BIN_A2_89",
+        "aisle_number": "A1",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A9_41",
         "aisle_number": "A4",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A2_37",
+        "aisle_number": "A3",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A6_07",
+        "aisle_number": "A1",
         "type": "Cold Storage",
         "occupied": true
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": false,
+        "current_vehicle": "VEH_eOe_48"
       },
       {
-        "bin_id": "BIN_A5_95",
-        "aisle_number": "A5",
-        "type": "Dry Storage",
-        "occupied": true
+        "dock_number": 2,
+        "is_occupied": false,
+        "current_vehicle": null
       },
       {
-        "bin_id": "BIN_A4_25",
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": "VEH_NJQ_77"
+      }
+    ]
+  },
+  {
+    "_id": "WH_nuV_29",
+    "province_id": "PROV_KPK",
+    "address": "PSC 6898, Box 3303\nAPO AA 29734",
+    "total_capacity_sqft": 63664,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-03-20"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A4_92",
         "aisle_number": "A2",
         "type": "Cold Storage",
         "occupied": false
       },
       {
-        "bin_id": "BIN_A3_05",
-        "aisle_number": "A1",
+        "bin_id": "BIN_A6_90",
+        "aisle_number": "A2",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A1_46",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A9_86",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A2_05",
+        "aisle_number": "A4",
         "type": "Dry Storage",
         "occupied": false
       }
@@ -405,12 +225,312 @@
       {
         "dock_number": 1,
         "is_occupied": false,
-        "current_vehicle": "VEH_Pqx_69"
+        "current_vehicle": "VEH_JhW_60"
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": false,
+        "current_vehicle": "VEH_jRa_69"
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": "VEH_UHL_95"
+      }
+    ]
+  },
+  {
+    "_id": "WH_UDF_21",
+    "province_id": "PROV_GB",
+    "address": "28277 Kelli Pine Suite 720\nTylerside, KY 88529",
+    "total_capacity_sqft": 84702,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-04-22"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A0_78",
+        "aisle_number": "A2",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A8_68",
+        "aisle_number": "A2",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A1_25",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A3_69",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A5_22",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": true,
+        "current_vehicle": "VEH_Osj_37"
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": false,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": "VEH_led_85"
+      }
+    ]
+  },
+  {
+    "_id": "WH_wnI_35",
+    "province_id": "PROV_GB",
+    "address": "Unit 0616 Box 9683\nDPO AA 14298",
+    "total_capacity_sqft": 87767,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-03-29"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A9_31",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A0_29",
+        "aisle_number": "A4",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A9_17",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A8_90",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A1_04",
+        "aisle_number": "A3",
+        "type": "Cold Storage",
+        "occupied": true
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": false,
+        "current_vehicle": "VEH_OIz_27"
       },
       {
         "dock_number": 2,
         "is_occupied": true,
-        "current_vehicle": "VEH_KkK_38"
+        "current_vehicle": "VEH_EXR_98"
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": false,
+        "current_vehicle": "VEH_eVX_74"
+      }
+    ]
+  },
+  {
+    "_id": "WH_zVK_70",
+    "province_id": "PROV_BALOCHISTAN",
+    "address": "7441 Jacobs Forks Apt. 277\nNew Teresa, CO 34202",
+    "total_capacity_sqft": 92875,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-04-19"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A4_36",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A5_44",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A4_95",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A7_00",
+        "aisle_number": "A3",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A0_68",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": true,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": false,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": "VEH_Idf_80"
+      }
+    ]
+  },
+  {
+    "_id": "WH_Knf_89",
+    "province_id": "PROV_SINDH",
+    "address": "98740 Curry Passage\nSouth Melissa, NM 94906",
+    "total_capacity_sqft": 68034,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-04-26"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A3_31",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A9_03",
+        "aisle_number": "A4",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A1_27",
+        "aisle_number": "A2",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A9_35",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A9_78",
+        "aisle_number": "A1",
+        "type": "Cold Storage",
+        "occupied": false
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": true,
+        "current_vehicle": "VEH_znR_14"
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": true,
+        "current_vehicle": "VEH_abi_08"
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": "VEH_tIq_10"
+      }
+    ]
+  },
+  {
+    "_id": "WH_iBj_16",
+    "province_id": "PROV_KPK",
+    "address": "068 Peter Course\nBradleyland, ME 26912",
+    "total_capacity_sqft": 65585,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-02-02"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A7_15",
+        "aisle_number": "A1",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A1_46",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A0_43",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A6_02",
+        "aisle_number": "A4",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A4_79",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": true
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": false,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": false,
+        "current_vehicle": "VEH_pzY_90"
       },
       {
         "dock_number": 3,
@@ -420,164 +540,44 @@
     ]
   },
   {
-    "_id": "WH_yIf_59",
+    "_id": "WH_jvc_90",
     "province_id": "PROV_GB",
-    "address": "28690 Weber Squares\nNew Lauraport, VT 66454",
-    "total_capacity_sqft": 48983,
+    "address": "749 Paula Plains\nNew Tina, FM 52041",
+    "total_capacity_sqft": 40413,
     "security_protocols": {
       "access_level": "Level 4 - Restricted",
       "biometric_enabled": true,
-      "last_inspection": "2026-03-24"
+      "last_inspection": "2026-04-29"
     },
     "bin_locations": [
       {
-        "bin_id": "BIN_A0_34",
-        "aisle_number": "A1",
+        "bin_id": "BIN_A1_52",
+        "aisle_number": "A4",
         "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A6_07",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
         "occupied": false
       },
       {
         "bin_id": "BIN_A2_08",
         "aisle_number": "A1",
-        "type": "Dry Storage",
-        "occupied": false
+        "type": "Cold Storage",
+        "occupied": true
       },
       {
-        "bin_id": "BIN_A0_47",
-        "aisle_number": "A5",
-        "type": "Dry Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A0_80",
+        "bin_id": "BIN_A3_13",
         "aisle_number": "A3",
-        "type": "Dry Storage",
+        "type": "Cold Storage",
         "occupied": false
       },
       {
-        "bin_id": "BIN_A1_72",
+        "bin_id": "BIN_A7_07",
         "aisle_number": "A4",
         "type": "Cold Storage",
-        "occupied": false
-      }
-    ],
-    "loadi  ng_docks": [
-      {
-        "dock_number": 1,
-        "is_occupied": false,
-        "current_vehicle": null
-      },
-      {
-        "dock_number": 2,
-        "is_occupied": true,
-        "current_vehicle": "VEH_Dod_80"
-      },
-      {
-        "dock_number": 3,
-        "is_occupied": false,
-        "current_vehicle": null
-      }
-    ]
-  },
-  {
-    "_id": "WH_Icv_48",
-    "province_id": "PROV_SINDH",
-    "address": "2099 Betty Summit Suite 825\nCooperbury, NE 92020",
-    "total_capacity_sqft": 67744,
-    "security_protocols": {
-      "access_level": "Level 4 - Restricted",
-      "biometric_enabled": true,
-      "last_inspection": "2026-01-20"
-    },
-    "bin_locations": [
-      {
-        "bin_id": "BIN_A7_71",
-        "aisle_number": "A1",
-        "type": "Dry Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A3_00",
-        "aisle_number": "A2",
-        "type": "Cold Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A8_53",
-        "aisle_number": "A1",
-        "type": "Cold Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A7_59",
-        "aisle_number": "A3",
-        "type": "Cold Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A5_57",
-        "aisle_number": "A2",
-        "type": "Dry Storage",
-        "occupied": false
-      }
-    ],
-    "loadi  ng_docks": [
-      {
-        "dock_number": 1,
-        "is_occupied": false,
-        "current_vehicle": "VEH_JWt_92"
-      },
-      {
-        "dock_number": 2,
-        "is_occupied": false,
-        "current_vehicle": "VEH_dzv_07"
-      },
-      {
-        "dock_number": 3,
-        "is_occupied": false,
-        "current_vehicle": "VEH_MdF_39"
-      }
-    ]
-  },
-  {
-    "_id": "WH_YLi_99",
-    "province_id": "PROV_PUNJAB",
-    "address": "PSC 8210, Box 1609\nAPO AE 53340",
-    "total_capacity_sqft": 42736,
-    "security_protocols": {
-      "access_level": "Level 4 - Restricted",
-      "biometric_enabled": true,
-      "last_inspection": "2026-03-31"
-    },
-    "bin_locations": [
-      {
-        "bin_id": "BIN_A4_04",
-        "aisle_number": "A3",
-        "type": "Cold Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A0_30",
-        "aisle_number": "A2",
-        "type": "Dry Storage",
-        "occupied": false
-      },
-      {
-        "bin_id": "BIN_A1_53",
-        "aisle_number": "A3",
-        "type": "Cold Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A8_33",
-        "aisle_number": "A1",
-        "type": "Cold Storage",
-        "occupied": true
-      },
-      {
-        "bin_id": "BIN_A3_17",
-        "aisle_number": "A4",
-        "type": "Dry Storage",
         "occupied": false
       }
     ],
@@ -589,13 +589,13 @@
       },
       {
         "dock_number": 2,
-        "is_occupied": false,
-        "current_vehicle": "VEH_hsM_43"
+        "is_occupied": true,
+        "current_vehicle": null
       },
       {
         "dock_number": 3,
         "is_occupied": false,
-        "current_vehicle": null
+        "current_vehicle": "VEH_SZU_86"
       }
     ]
   }

@@ -17,7 +17,7 @@ services:
     depends_on:
       - mongodb
     volumes:
-      - ./NexusData_Output:/import/:ro,Z
+      - ./src/NexusData_Output:/import/:ro,Z
     command: >
       bash -c "
       echo 'Waiting for MongoDB...';
