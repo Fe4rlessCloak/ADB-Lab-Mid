@@ -1,0 +1,602 @@
+[
+  {
+    "_id": "WH_TxH_90",
+    "province_id": "PROV_GB",
+    "address": "23977 Christopher Mountains\nCampbellhaven, TX 87182",
+    "total_capacity_sqft": 53932,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-03-21"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A4_59",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A4_39",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A7_71",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A3_63",
+        "aisle_number": "A3",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A2_77",
+        "aisle_number": "A1",
+        "type": "Cold Storage",
+        "occupied": false
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": false,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": false,
+        "current_vehicle": "VEH_OoP_26"
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": null
+      }
+    ]
+  },
+  {
+    "_id": "WH_GOe_19",
+    "province_id": "PROV_PUNJAB",
+    "address": "829 Julie Burgs\nNew Tammy, WA 87082",
+    "total_capacity_sqft": 56909,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-02-21"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A5_39",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A3_58",
+        "aisle_number": "A4",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A4_52",
+        "aisle_number": "A4",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A5_41",
+        "aisle_number": "A2",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A6_56",
+        "aisle_number": "A4",
+        "type": "Dry Storage",
+        "occupied": false
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": true,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": true,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": "VEH_htl_69"
+      }
+    ]
+  },
+  {
+    "_id": "WH_wnb_14",
+    "province_id": "PROV_BALOCHISTAN",
+    "address": "924 Pacheco Turnpike Suite 803\nWest Carol, VT 11805",
+    "total_capacity_sqft": 21373,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-03-13"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A9_61",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A7_32",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A8_32",
+        "aisle_number": "A3",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A3_84",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A5_42",
+        "aisle_number": "A3",
+        "type": "Cold Storage",
+        "occupied": true
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": true,
+        "current_vehicle": "VEH_cOr_62"
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": true,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": null
+      }
+    ]
+  },
+  {
+    "_id": "WH_bef_31",
+    "province_id": "PROV_PUNJAB",
+    "address": "403 Julie Ports\nEast Whitney, MO 92554",
+    "total_capacity_sqft": 83970,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-02-27"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A1_27",
+        "aisle_number": "A3",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A5_76",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A4_25",
+        "aisle_number": "A4",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A7_81",
+        "aisle_number": "A3",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A9_14",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": true
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": false,
+        "current_vehicle": "VEH_okW_35"
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": true,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": null
+      }
+    ]
+  },
+  {
+    "_id": "WH_ErA_18",
+    "province_id": "PROV_KPK",
+    "address": "USNS Ramirez\nFPO AE 47568",
+    "total_capacity_sqft": 83723,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-02-23"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A8_40",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A1_67",
+        "aisle_number": "A4",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A5_76",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A5_28",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A3_39",
+        "aisle_number": "A1",
+        "type": "Cold Storage",
+        "occupied": false
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": true,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": false,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": null
+      }
+    ]
+  },
+  {
+    "_id": "WH_AmC_75",
+    "province_id": "PROV_PUNJAB",
+    "address": "221 Theresa Village\nTeresatown, OR 23487",
+    "total_capacity_sqft": 85723,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-03-08"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A0_12",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A3_47",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A3_19",
+        "aisle_number": "A5",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A1_98",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A0_96",
+        "aisle_number": "A3",
+        "type": "Dry Storage",
+        "occupied": true
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": true,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": true,
+        "current_vehicle": "VEH_WcV_25"
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": false,
+        "current_vehicle": null
+      }
+    ]
+  },
+  {
+    "_id": "WH_leq_18",
+    "province_id": "PROV_GB",
+    "address": "5210 Meyers Expressway Suite 584\nNew Debra, WI 87696",
+    "total_capacity_sqft": 93165,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-02-25"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A4_85",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A3_31",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A1_73",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A2_94",
+        "aisle_number": "A4",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A6_18",
+        "aisle_number": "A3",
+        "type": "Cold Storage",
+        "occupied": true
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": false,
+        "current_vehicle": "VEH_yMR_56"
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": true,
+        "current_vehicle": "VEH_Hbe_95"
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": false,
+        "current_vehicle": null
+      }
+    ]
+  },
+  {
+    "_id": "WH_lmc_06",
+    "province_id": "PROV_SINDH",
+    "address": "3349 Debra Union Suite 777\nCodyshire, CT 17964",
+    "total_capacity_sqft": 63910,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-02-12"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A3_24",
+        "aisle_number": "A4",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A0_82",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A9_11",
+        "aisle_number": "A1",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A7_61",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A9_77",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": false
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": true,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": false,
+        "current_vehicle": "VEH_yMR_56"
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": false,
+        "current_vehicle": "VEH_OBZ_82"
+      }
+    ]
+  },
+  {
+    "_id": "WH_iUm_81",
+    "province_id": "PROV_GB",
+    "address": "431 Samantha Points\nNorth Rebeccaland, MS 38360",
+    "total_capacity_sqft": 99808,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-01-25"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A7_06",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A3_86",
+        "aisle_number": "A2",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A8_40",
+        "aisle_number": "A2",
+        "type": "Dry Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A8_70",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A5_62",
+        "aisle_number": "A4",
+        "type": "Cold Storage",
+        "occupied": true
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": false,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": true,
+        "current_vehicle": "VEH_lgO_87"
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": true,
+        "current_vehicle": null
+      }
+    ]
+  },
+  {
+    "_id": "WH_CNX_52",
+    "province_id": "PROV_BALOCHISTAN",
+    "address": "90404 Carlson Ferry Apt. 178\nRamseyberg, VI 25563",
+    "total_capacity_sqft": 28077,
+    "security_protocols": {
+      "access_level": "Level 4 - Restricted",
+      "biometric_enabled": true,
+      "last_inspection": "2026-03-15"
+    },
+    "bin_locations": [
+      {
+        "bin_id": "BIN_A8_50",
+        "aisle_number": "A2",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A7_86",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": true
+      },
+      {
+        "bin_id": "BIN_A7_66",
+        "aisle_number": "A5",
+        "type": "Cold Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A1_79",
+        "aisle_number": "A1",
+        "type": "Dry Storage",
+        "occupied": false
+      },
+      {
+        "bin_id": "BIN_A6_34",
+        "aisle_number": "A4",
+        "type": "Dry Storage",
+        "occupied": false
+      }
+    ],
+    "loadi  ng_docks": [
+      {
+        "dock_number": 1,
+        "is_occupied": false,
+        "current_vehicle": "VEH_Kas_83"
+      },
+      {
+        "dock_number": 2,
+        "is_occupied": false,
+        "current_vehicle": null
+      },
+      {
+        "dock_number": 3,
+        "is_occupied": false,
+        "current_vehicle": null
+      }
+    ]
+  }
+]

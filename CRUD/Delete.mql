@@ -1,1 +1,0 @@
-docker exec -it nexus-mongodb mongosh -u admin -p password --authenticationDatabase admin --eval "db.getSiblingDB('NexusLogisticsDB').fleet_vehicles.deleteOne({ _id: 'VEH_LHR_99' })"

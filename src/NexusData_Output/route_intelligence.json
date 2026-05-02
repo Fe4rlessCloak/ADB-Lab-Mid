@@ -1,0 +1,377 @@
+[
+  {
+    "_id": "PATH_cYM_yFc_88",
+    "origin": "East Jodi",
+    "destination": "Taylorborough",
+    "distance_km": 524,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M9_48",
+        "location": "Port Kiara",
+        "cost": 680
+      }
+    ],
+    "current_weather": {
+      "forecast": "Clear",
+      "visibility_km": 2.6,
+      "last_updated": "2026-05-01 01:58:58.303050"
+    },
+    "traffic_history": {
+      "congestion_level": "High",
+      "avg_speed_kph": 88,
+      "bottleneck_points": [
+        "Scott Parks"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_aGr_ZaL_09",
+    "origin": "Joseview",
+    "destination": "North Michaelside",
+    "distance_km": 782,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M5_35",
+        "location": "Jackburgh",
+        "cost": 966
+      }
+    ],
+    "current_weather": {
+      "forecast": "Clear",
+      "visibility_km": 2.0,
+      "last_updated": "2026-05-02 06:26:52.287693"
+    },
+    "traffic_history": {
+      "congestion_level": "High",
+      "avg_speed_kph": 66,
+      "bottleneck_points": [
+        "Donald Glens"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_nEu_TxD_17",
+    "origin": "Port Catherinebury",
+    "destination": "Dennisberg",
+    "distance_km": 1019,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M3_41",
+        "location": "Adkinsburgh",
+        "cost": 959
+      }
+    ],
+    "current_weather": {
+      "forecast": "Heavy Rain",
+      "visibility_km": 1.7,
+      "last_updated": "2026-05-02 11:34:00.281542"
+    },
+    "traffic_history": {
+      "congestion_level": "Medium",
+      "avg_speed_kph": 74,
+      "bottleneck_points": [
+        "Glass Squares"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_Uvn_XrH_56",
+    "origin": "South Ryan",
+    "destination": "Ryanview",
+    "distance_km": 332,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M8_16",
+        "location": "Leonberg",
+        "cost": 693
+      }
+    ],
+    "current_weather": {
+      "forecast": "Fog",
+      "visibility_km": 0.7,
+      "last_updated": "2026-05-02 01:07:25.271553"
+    },
+    "traffic_history": {
+      "congestion_level": "High",
+      "avg_speed_kph": 57,
+      "bottleneck_points": [
+        "Hart Curve"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_lTJ_rnQ_42",
+    "origin": "Zhangmouth",
+    "destination": "East Dennisstad",
+    "distance_km": 1208,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M1_36",
+        "location": "North Rodneyville",
+        "cost": 390
+      }
+    ],
+    "current_weather": {
+      "forecast": "Clear",
+      "visibility_km": 3.2,
+      "last_updated": "2026-05-02 00:02:00.068407"
+    },
+    "traffic_history": {
+      "congestion_level": "Low",
+      "avg_speed_kph": 67,
+      "bottleneck_points": [
+        "Villegas Stream"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_Kvn_xDy_01",
+    "origin": "Lake Michael",
+    "destination": "South Melissaton",
+    "distance_km": 1020,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M8_06",
+        "location": "Boydville",
+        "cost": 1343
+      }
+    ],
+    "current_weather": {
+      "forecast": "Heavy Rain",
+      "visibility_km": 2.1,
+      "last_updated": "2026-05-01 20:46:10.317732"
+    },
+    "traffic_history": {
+      "congestion_level": "High",
+      "avg_speed_kph": 85,
+      "bottleneck_points": [
+        "Beverly Center"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_One_BHB_25",
+    "origin": "Emilyport",
+    "destination": "Lyonsview",
+    "distance_km": 837,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M1_45",
+        "location": "South Kathrynchester",
+        "cost": 1418
+      }
+    ],
+    "current_weather": {
+      "forecast": "Fog",
+      "visibility_km": 8.4,
+      "last_updated": "2026-05-02 02:20:28.853884"
+    },
+    "traffic_history": {
+      "congestion_level": "Low",
+      "avg_speed_kph": 57,
+      "bottleneck_points": [
+        "Burns Mountains"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_Jqe_Iij_95",
+    "origin": "Lake Johnbury",
+    "destination": "Baileyshire",
+    "distance_km": 381,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M4_30",
+        "location": "West Jason",
+        "cost": 407
+      }
+    ],
+    "current_weather": {
+      "forecast": "Heavy Rain",
+      "visibility_km": 7.6,
+      "last_updated": "2026-05-01 03:31:17.441154"
+    },
+    "traffic_history": {
+      "congestion_level": "Medium",
+      "avg_speed_kph": 87,
+      "bottleneck_points": [
+        "Gary Mission"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_vOy_xZr_70",
+    "origin": "Campbellside",
+    "destination": "West Veronicaview",
+    "distance_km": 1182,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M2_37",
+        "location": "Aliciafort",
+        "cost": 1087
+      }
+    ],
+    "current_weather": {
+      "forecast": "Heavy Rain",
+      "visibility_km": 3.4,
+      "last_updated": "2026-05-01 02:43:40.249342"
+    },
+    "traffic_history": {
+      "congestion_level": "Low",
+      "avg_speed_kph": 81,
+      "bottleneck_points": [
+        "Gardner Hollow"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_VjK_xXx_82",
+    "origin": "Kathrynfurt",
+    "destination": "Lake Terrenceberg",
+    "distance_km": 424,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M9_33",
+        "location": "Fosterton",
+        "cost": 448
+      }
+    ],
+    "current_weather": {
+      "forecast": "Fog",
+      "visibility_km": 2.2,
+      "last_updated": "2026-05-01 04:08:09.470604"
+    },
+    "traffic_history": {
+      "congestion_level": "Low",
+      "avg_speed_kph": 41,
+      "bottleneck_points": [
+        "William Corners"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_hPG_RDJ_68",
+    "origin": "New Jason",
+    "destination": "South Jonathan",
+    "distance_km": 374,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M2_94",
+        "location": "Salinasshire",
+        "cost": 1144
+      }
+    ],
+    "current_weather": {
+      "forecast": "Fog",
+      "visibility_km": 1.4,
+      "last_updated": "2026-05-01 18:09:06.880972"
+    },
+    "traffic_history": {
+      "congestion_level": "Low",
+      "avg_speed_kph": 60,
+      "bottleneck_points": [
+        "Campbell Pike"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_SaO_Gyb_13",
+    "origin": "Port Samuel",
+    "destination": "South Don",
+    "distance_km": 1119,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M8_48",
+        "location": "Lake Justin",
+        "cost": 539
+      }
+    ],
+    "current_weather": {
+      "forecast": "Heavy Rain",
+      "visibility_km": 4.3,
+      "last_updated": "2026-05-02 01:49:17.040686"
+    },
+    "traffic_history": {
+      "congestion_level": "Medium",
+      "avg_speed_kph": 78,
+      "bottleneck_points": [
+        "Richard Ridge"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_esp_gue_31",
+    "origin": "East Emily",
+    "destination": "Roberthaven",
+    "distance_km": 1345,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M6_14",
+        "location": "Aliciaborough",
+        "cost": 1129
+      }
+    ],
+    "current_weather": {
+      "forecast": "Fog",
+      "visibility_km": 8.6,
+      "last_updated": "2026-05-02 01:12:28.440217"
+    },
+    "traffic_history": {
+      "congestion_level": "Medium",
+      "avg_speed_kph": 76,
+      "bottleneck_points": [
+        "Anthony Fork"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_ISf_frV_88",
+    "origin": "South Erika",
+    "destination": "New Ashley",
+    "distance_km": 981,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M7_65",
+        "location": "Port Susanborough",
+        "cost": 918
+      }
+    ],
+    "current_weather": {
+      "forecast": "Fog",
+      "visibility_km": 9.1,
+      "last_updated": "2026-05-01 17:25:53.375962"
+    },
+    "traffic_history": {
+      "congestion_level": "High",
+      "avg_speed_kph": 64,
+      "bottleneck_points": [
+        "Ortega Street"
+      ]
+    }
+  },
+  {
+    "_id": "PATH_UCl_IVE_48",
+    "origin": "Thompsonfurt",
+    "destination": "Rogersville",
+    "distance_km": 464,
+    "toll_details": [
+      {
+        "toll_id": "TOLL_M5_63",
+        "location": "Kimburgh",
+        "cost": 1491
+      }
+    ],
+    "current_weather": {
+      "forecast": "Heavy Rain",
+      "visibility_km": 6.5,
+      "last_updated": "2026-05-01 23:42:01.243712"
+    },
+    "traffic_history": {
+      "congestion_level": "Low",
+      "avg_speed_kph": 71,
+      "bottleneck_points": [
+        "Phelps Center"
+      ]
+    }
+  }
+]

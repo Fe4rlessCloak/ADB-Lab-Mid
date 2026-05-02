@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "PROV_PUNJAB",
+    "name": "Punjab",
+    "tax_rules": {
+      "gst_rate": 0.16,
+      "transit_tax_fixed": 500.0
+    },
+    "local_laws": [
+      {
+        "law_id": "LAW_vio_59",
+        "law_text": "Like movie ready deep might social certainly budget.",
+        "penalty": 1161
+      }
+    ],
+    "management_contacts": [
+      {
+        "role": "Regional Manager",
+        "name": "Ashley Frazier",
+        "phone": "857.369.1557"
+      }
+    ]
+  },
+  {
+    "_id": "PROV_SINDH",
+    "name": "Sindh",
+    "tax_rules": {
+      "gst_rate": 0.16,
+      "transit_tax_fixed": 500.0
+    },
+    "local_laws": [
+      {
+        "law_id": "LAW_aHo_55",
+        "law_text": "Somebody maintain billion population.",
+        "penalty": 3818
+      }
+    ],
+    "management_contacts": [
+      {
+        "role": "Regional Manager",
+        "name": "Steven Jensen",
+        "phone": "+1-553-507-7917"
+      }
+    ]
+  },
+  {
+    "_id": "PROV_KPK",
+    "name": "Kpk",
+    "tax_rules": {
+      "gst_rate": 0.16,
+      "transit_tax_fixed": 500.0
+    },
+    "local_laws": [
+      {
+        "law_id": "LAW_zKL_14",
+        "law_text": "Cut data western station magazine.",
+        "penalty": 5257
+      }
+    ],
+    "management_contacts": [
+      {
+        "role": "Regional Manager",
+        "name": "Alexander Martinez",
+        "phone": "785-277-3584x0846"
+      }
+    ]
+  },
+  {
+    "_id": "PROV_BALOCHISTAN",
+    "name": "Balochistan",
+    "tax_rules": {
+      "gst_rate": 0.16,
+      "transit_tax_fixed": 500.0
+    },
+    "local_laws": [
+      {
+        "law_id": "LAW_uOE_29",
+        "law_text": "Shake leg moment exactly onto evening rest.",
+        "penalty": 3229
+      }
+    ],
+    "management_contacts": [
+      {
+        "role": "Regional Manager",
+        "name": "Kelly Monroe",
+        "phone": "+1-452-326-4412"
+      }
+    ]
+  },
+  {
+    "_id": "PROV_GB",
+    "name": "Gb",
+    "tax_rules": {
+      "gst_rate": 0.16,
+      "transit_tax_fixed": 500.0
+    },
+    "local_laws": [
+      {
+        "law_id": "LAW_WQG_62",
+        "law_text": "Mother pretty late history watch.",
+        "penalty": 6512
+      }
+    ],
+    "management_contacts": [
+      {
+        "role": "Regional Manager",
+        "name": "Mario Reynolds",
+        "phone": "5898010680"
+      }
+    ]
+  }
+]
