@@ -13,7 +13,7 @@ def init_connection():
 
 db = init_connection()
 
-st.title("📦 Nexus Logistics | Core Operations")
+st.title(" Nexus Logistics | Core Operations")
 st.markdown("---")
 # --- 2. OVERVIEW SECTION (KPI COMMAND CENTER) ---
 st.header("1. Global Operations Overview")
@@ -37,6 +37,86 @@ def get_delayed_high_value():
         "customs_clearance.declaration_value": {"$gte": 500000},
         "status_history.update": "Delayed"
     })
+
+
+
+# ---------------------------------------------------------
+# --- 1.5. NETWORK TELEMETRY & FINANCIALS (CHARTS) ---
+# ---------------------------------------------------------
+st.markdown("###  Live Operations & Financial Velocity")
+
+col_chart1, col_chart2 = st.columns(2)
+
+with col_chart1:
+    # --- CHART 1: Logistics Pipeline Health ---
+    status_pipeline = [
+        {"$project": {
+            "current_status": {"$arrayElemAt": ["$status_history.update", -1]}
+        }},
+        # FIXED: Explicitly filter out "Dispatched" or any other anomalies
+        {"$match": {
+            "current_status": {"$in": ["Picked Up", "In-Transit", "Delayed"]}
+        }},
+        {"$group": {"_id": "$current_status", "count": {"$sum": 1}}},
+        {"$sort": {"count": 1}} 
+    ]
+    status_data = list(db.shipment_ops.aggregate(status_pipeline))
+    
+    if status_data:
+        df_status = pd.DataFrame(status_data)
+        df_status.rename(columns={"_id": "Status", "count": "Volume"}, inplace=True)
+        
+        fig_status = px.bar(
+            df_status, x="Volume", y="Status", orientation='h',
+            title="Current Network Pipeline Health",
+            text_auto=True,
+            color="Status",
+            # A more professional color palette for statuses
+            color_discrete_map={
+                "Picked Up": "#1f77b4", 
+                "In-Transit": "#2ca02c", 
+                "Delayed": "#d62728"
+            }
+        )
+        fig_status.update_layout(showlegend=False, xaxis_title=None, yaxis_title=None)
+        st.plotly_chart(fig_status, use_container_width=True)
+
+with col_chart2:
+    # --- CHART 2: Financial Volume (May 2026 Daily Trend) ---
+    volume_pipeline = [
+        {"$match": {
+            "created_at": {"$gte": "2026-05-01"}
+        }},
+        {"$project": {
+            "date_only": {"$substr": ["$created_at", 0, 10]}, 
+            "value": "$customs_clearance.declaration_value"
+        }},
+        {"$group": {"_id": "$date_only", "daily_value": {"$sum": "$value"}}},
+        {"$sort": {"_id": 1}} 
+    ]
+    volume_data = list(db.shipment_ops.aggregate(volume_pipeline))
+    
+    if volume_data:
+        df_volume = pd.DataFrame(volume_data)
+        df_volume.rename(columns={"_id": "Date", "daily_value": "Total Value (PKR)"}, inplace=True)
+        
+        # FIXED: Added range_y to ensure the chart starts at zero
+        fig_volume = px.line(
+            df_volume, x="Date", y="Total Value (PKR)",
+            title="May 2026: Capital in Transit",
+            markers=True,
+            range_y=[0, df_volume['Total Value (PKR)'].max() * 1.1] 
+        )
+        
+        fig_volume.update_xaxes(type='category')
+        fig_volume.update_traces(line_color='#00d2ff', line_width=3, marker_size=8)
+        fig_volume.update_layout(xaxis_title=None, yaxis_title=None)
+        st.plotly_chart(fig_volume, use_container_width=True)
+
+st.markdown("---")
+
+
+
 
 # 2. --- REAL-TIME COUNTS (Fast Operations) ---
 total_shipments = db.shipment_ops.estimated_document_count()
@@ -77,16 +157,16 @@ with col_alert2:
 
 st.markdown("---")
 
-# --- 3. PRE-BAKED QUERIES ---
+# --- 3. PRE-BAKED QUERIES (READ OPERATIONS) ---
 st.header("2. Common Operations (Pre-Indexed)")
 
+# FIXED: Removed Tab E so this section is strictly for reporting/searching
 tab_a, tab_b, tab_c, tab_d = st.tabs([
     "A: Driver Incidents", 
     "B: Shipment/Customer Search", 
     "C: Top 10 High-Value Shipments", 
     "D: Vehicle Maintenance"
 ])
-
 # Query A: Search driver by ID and show their incidents
 with tab_a:
     st.subheader("Driver Incident & Liability Center")
@@ -199,7 +279,7 @@ with tab_b:
         ship_search = st.text_input("Find by Shipment ID:", placeholder="e.g., NEX-SHIP-000000")
         if st.button("Search Shipment"):
             start_time = time.time() # ⏱️ START TIMER
-            shipment = db.shipment_ops.find_one({"_id": ship_search})
+            shipment = db.shipment_ops.find_one({"_id": ship_search.strip()})
             end_time = time.time() # ⏱️ STOP TIMER
             exec_ms = (end_time - start_time) * 1000  
             if shipment:
@@ -286,3 +366,95 @@ with tab_d:
             st.dataframe(df_maint, use_container_width=True, hide_index=True)
         else:
             st.info(f"No maintenance history found for this vehicle. (Execution Time: {exec_ms:.2f} ms)")
+
+# Query E: The Real-World CRUD Dispatch Form
+# --- NEW SECTION: ACTION TERMINAL (WRITE OPERATIONS) ---
+# ---------------------------------------------------------
+st.markdown("---")
+st.header("3. Command & Control: Dispatch Terminal")
+st.write("Assign active fleet assets, personnel, routing, and cargo to new operations.")
+
+# --- 1. PRE-FETCH DATA ---
+# Drivers
+drivers = list(db.driver_performance.find({}, {"_id": 1, "name": 1}))
+driver_options = {d["_id"]: f"{d['name']} ({d['_id']})" for d in drivers}
+
+# Vehicles
+vehicles = list(db.fleet_assets.find({}, {"_id": 1}).limit(200)) 
+vehicle_options = [v["_id"] for v in vehicles]
+
+# Customers & Vendors
+customers = db.shipment_ops.distinct("customer_id")
+vendors = db.shipment_ops.distinct("items.vendor_id")
+
+# FIXED: Fetch Routes from route_intelligence!
+routes = list(db.route_intelligence.find({}, {"_id": 1, "origin": 1, "destination": 1}).limit(200))
+route_options = {r["_id"]: f"{r['origin']} -> {r['destination']} ({r['_id']})" for r in routes}
+
+# --- 2. THE UI FORM ---
+with st.container(): # Using a container to make it pop visually
+    with st.form("dispatch_form"):
+        col_f1, col_f2, col_f3 = st.columns(3)
+        
+        with col_f1:
+            st.markdown("##### Entities")
+            cust_id = st.selectbox("Customer", options=customers)
+            driver_id = st.selectbox("Driver", options=list(driver_options.keys()), format_func=lambda x: driver_options[x])
+            vehicle_id = st.selectbox("Vehicle", options=vehicle_options)
+        
+        with col_f2:
+            st.markdown("##### Shipment Meta")
+            import time
+            auto_ship_id = f"NEX-SHIP-{int(time.time())}"
+            ship_id = st.text_input("Shipment ID", value=auto_ship_id)
+            
+            # FIXED: Dynamic Route Dropdown!
+            path_id = st.selectbox("Route", options=list(route_options.keys()), format_func=lambda x: route_options[x])
+            
+            value = st.number_input("Value (PKR)", min_value=0, step=5000, value=286103)
+            
+        with col_f3:
+            st.markdown("##### Primary Cargo")
+            item_desc = st.text_input("Description", placeholder="e.g., electronic parts")
+            item_qty = st.number_input("Quantity", min_value=1, value=50)
+            vendor_id = st.selectbox("Vendor ID", options=vendors if vendors else ["VND_UNKNOWN"])
+
+        submitted = st.form_submit_button("Deploy Shipment 🚀")
+        
+        # --- 3. DATABASE INJECTION ---
+        if submitted:
+            from datetime import datetime
+            
+            new_shipment = {
+                "_id": ship_id,
+                "customer_id": cust_id,
+                "assigned_driver": driver_id,
+                "assigned_vehicle": vehicle_id,
+                "path_id": path_id,
+                "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f"),
+                "customs_clearance": {
+                    "customs_id": f"CUST_{int(time.time() % 1000)}",
+                    "status": "Pending",
+                    "declaration_value": value
+                },
+                "items": [
+                    {
+                        "item_id": f"ITM_{int(time.time() % 100)}",
+                        "vendor_id": vendor_id,
+                        "description": item_desc,
+                        "qty": item_qty
+                    }
+                ], 
+                "status_history": [
+                    {
+                        "checkpoint": "Origin Hub", 
+                        "update": "Picked Up", 
+                        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")
+                    }
+                ]
+            }
+            
+            db.shipment_ops.insert_one(new_shipment)
+            st.success(f"✅ Success! Shipment `{ship_id}` carrying {item_qty}x '{item_desc}' has been dispatched on route {route_options[path_id]}.")
+            st.balloons()
+
