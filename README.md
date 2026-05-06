@@ -1,7 +1,7 @@
 #  Nexus Logistics: Advanced NoSQL Engine
 
 ##  Project Overview
-**Nexus Logistics** is a specialized database system designed to address the challenges of real-time supply chain management. By leveraging a document-oriented architecture with MongoDB, the system replaces traditional relational bottlenecks with a denormalized, query-optimized model.
+**Nexus Logistics** is a specialized database system designed to address the challenges of real-time supply chain management. By leveraging a document-oriented architecture with MongoDB, the system replaces traditional relational bottlenecks with a denormalized, query-optimized model. The system manages a high-volume dataset of approximately 350,000 documents.
 
 ### Key Focus Areas:
 * **Shipment Tracking:** Monitoring high-value shipments in real-time.
@@ -20,6 +20,12 @@ The database employs advanced NoSQL modeling techniques to ensure data locality 
 * Consolidates **43 relational entities** into just **12 collections**.
 * Eliminates expensive multi-table joins.
 * Significantly improves read performance through data locality.
+
+###  Streamlit Management Dashboard
+An interactive web-based interface providing:
+* **Real-time Analytics:** Live KPIs and database statistics.
+* **Advanced Querying:** Pre-built, optimized MQL aggregations for rapid insights.
+* **Dispatch Terminal:** An interface for real-time shipment operations and dispatch management.
 
 
 ---
